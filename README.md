@@ -18,4 +18,4 @@ Open `http://127.0.0.1:4173`.
 
 These files can be published on any static host, including GitHub Pages, Cloudflare Pages, Netlify, or a normal web server.
 
-Replace `support@secretscan.app` in `privacy.html` and `support.html` before publishing if the app uses a different support address.
+The published support contact is `liweba@gmail.com`.
