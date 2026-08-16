@@ -21,7 +21,7 @@
         <p class="eyebrow">Privacy Policy</p>
         <h1>SecretScan Privacy Policy</h1>
         <p class="lead">SecretScan is designed as a local privacy utility. It helps you find risky screenshots or text-heavy photos, review them, and clean them up without sending your private images or extracted text to SecretScan servers.</p>
-        <p class="meta">Last updated: April 29, 2026</p>
+        <p class="meta">Last updated: August 17, 2026</p>
       </section>
 
       <section class="section">
@@ -35,11 +35,19 @@
           <li>SecretScan does not upload your Photos.</li>
           <li>SecretScan does not upload OCR text.</li>
           <li>SecretScan does not require a SecretScan account.</li>
-          <li>SecretScan does not include analytics, telemetry, advertising SDKs, or tracking.</li>
+          <li>SecretScan uses Firebase Analytics for a minimal product-validation funnel and does not track users across apps or websites.</li>
+          <li>Analytics never includes Photos data, OCR text, finding details, or Photos identifiers. Firebase assigns a pseudonymous app-instance identifier.</li>
           <li>OCR runs on your iPhone using Apple's on-device Vision framework.</li>
           <li>Findings are stored locally in a locked vault.</li>
           <li>iCloud originals may be requested through Apple's Photos framework when needed for better image quality. SecretScan does not upload anything to iCloud.</li>
         </ul>
+      </section>
+
+      <section class="section">
+        <h2>Product Validation Metrics</h2>
+        <p>To determine whether the product solves a real problem, release builds may send one-time milestones for Photos permission, starting and completing a scan, whether a scan produced at least one high- or critical-risk finding, opening such a finding, completing a remediation, seeing a paywall, and completing a verified purchase.</p>
+        <p>The custom events contain only the event name, a coarse paywall or remediation reason when applicable, and Boolean context indicating whether an actionable finding was detected, opened, or remediated earlier. They do not contain Photos or OCR data, finding categories or counts, Photos identifiers, or account identifiers.</p>
+        <p>Firebase Analytics automatically assigns a pseudonymous app-instance identifier and may process app lifecycle and purchase events, app and device information, a masked IP address used to derive coarse location, and transport diagnostics. SecretScan disables IDFA and IDFV collection, denies advertising storage and personalization, and does not set a user ID. The data is used only to measure and maintain the product, not for advertising, profiling, or cross-app tracking. Firebase Analytics is operated by Google under its applicable terms and privacy documentation.</p>
       </section>
 
       <section class="section">
