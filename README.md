@@ -16,6 +16,7 @@ SecretScan helps you find passwords, recovery codes, API keys, payment details, 
 - [How to search screenshots by text on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html)
 - [Find API keys and tokens in iPhone screenshots](https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html)
 - [Find recovery codes and seed phrases in photos](https://mityapolianskii.github.io/secretscan-app-store-pages/find-recovery-codes-in-photos.html)
+- [Find password screenshots and photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-passwords-in-iphone-photos.html)
 
 SecretScan is a focused photo-privacy audit, not a cloud vault, antivirus, password manager, or guarantee that every sensitive image will be found. If a credential may have been exposed, rotate or revoke it; deleting its screenshot does not invalidate it.
 
@@ -29,6 +30,7 @@ Static pages for App Store Connect URLs:
 - `support.html`: Support URL.
 - `scan-api-keys-in-screenshots.html`: developer-intent acquisition page.
 - `find-recovery-codes-in-photos.html`: account-recovery intent acquisition page.
+- `find-passwords-in-iphone-photos.html`: password-screenshot intent guide and cleanup path.
 - `iphone-sensitive-screenshot-checklist.html`: evergreen manual-audit guide.
 - `search-screenshots-by-text-iphone.html`: built-in Photos and Spotlight text-search guide.
 - `redact-sensitive-information-iphone-screenshot.html`: built-in Markup redaction guide and reversible-edit caveat.
