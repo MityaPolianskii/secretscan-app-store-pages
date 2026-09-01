@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mityapolianskii.github.io/secretscan-app-store-pages/</loc><lastmod>2026-09-02</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://mityapolianskii.github.io/secretscan-app-store-pages/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mityapolianskii.github.io/secretscan-app-store-pages/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mityapolianskii.github.io/secretscan-app-store-pages/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/"/>
+  </url>
+  <url>
+    <loc>https://mityapolianskii.github.io/secretscan-app-store-pages/es/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mityapolianskii.github.io/secretscan-app-store-pages/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mityapolianskii.github.io/secretscan-app-store-pages/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/"/>
+  </url>
+  <url>
+    <loc>https://mityapolianskii.github.io/secretscan-app-store-pages/de/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mityapolianskii.github.io/secretscan-app-store-pages/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mityapolianskii.github.io/secretscan-app-store-pages/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/"/>
+  </url>
+  <url>
+    <loc>https://mityapolianskii.github.io/secretscan-app-store-pages/ru/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mityapolianskii.github.io/secretscan-app-store-pages/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mityapolianskii.github.io/secretscan-app-store-pages/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/"/>
+  </url>
   <url><loc>https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://mityapolianskii.github.io/secretscan-app-store-pages/find-recovery-codes-in-photos.html</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html</loc><lastmod>2026-09-02</lastmod></url>

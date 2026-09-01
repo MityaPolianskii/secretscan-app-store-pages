@@ -11,6 +11,12 @@ SecretScan does not upload Photos or extracted OCR text to SecretScan servers. F
 - [Privacy policy](https://mityapolianskii.github.io/secretscan-app-store-pages/privacy.html)
 - [Support](https://mityapolianskii.github.io/secretscan-app-store-pages/support.html)
 
+## Localized homepages
+
+- [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/)
+- [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/)
+- [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/)
+
 ## Practical guides
 
 - [Search screenshots by text on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html): use built-in Photos or Spotlight search when the exact visible text is known.
