@@ -13,6 +13,7 @@ SecretScan helps you find passwords, recovery codes, API keys, payment details, 
 ## Practical privacy guides
 
 - [How to find and remove sensitive screenshots on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/iphone-sensitive-screenshot-checklist.html)
+- [How to search screenshots by text on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html)
 - [Find API keys and tokens in iPhone screenshots](https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html)
 - [Find recovery codes and seed phrases in photos](https://mityapolianskii.github.io/secretscan-app-store-pages/find-recovery-codes-in-photos.html)
 
@@ -27,6 +28,7 @@ Static pages for App Store Connect URLs:
 - `scan-api-keys-in-screenshots.html`: developer-intent acquisition page.
 - `find-recovery-codes-in-photos.html`: account-recovery intent acquisition page.
 - `iphone-sensitive-screenshot-checklist.html`: evergreen manual-audit guide.
+- `search-screenshots-by-text-iphone.html`: built-in Photos and Spotlight text-search guide.
 - `mac-private-file-scan.html`: Mac demand-validation page.
 - `robots.txt` and `sitemap.xml`: crawl discovery.
 - `53e8f1b23307486a8c13ea79ed325d80.txt`: IndexNow ownership key for URLs under this GitHub Pages path.
