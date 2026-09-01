@@ -201,6 +201,8 @@ li + li {
 .steps span { color: var(--muted); }
 .cta { text-align: center; border-left-width: 1px; }
 .cta .button { margin-top: 8px; }
+.mac-strip { display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+.mac-strip p { max-width: 640px; color: var(--muted); }
 
 .meta {
   color: var(--muted);
@@ -259,4 +261,5 @@ li + li {
   .feature-grid, .split-hero, .steps { grid-template-columns: 1fr; }
   .split-hero { gap: 24px; }
   .terminal-card, .recovery-card { transform: none; }
+  .mac-strip { align-items: flex-start; flex-direction: column; }
 }
