@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find API keys in iPhone screenshots — SecretScan</title>
+    <meta name="description" content="Privately scan iPhone screenshots for exposed API keys, access tokens, passwords, and other developer secrets with on-device OCR.">
+    <link rel="canonical" href="https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html"><span class="mark">S</span><span>SecretScan</span></a>
+        <div class="links"><a href="find-recovery-codes-in-photos.html">Recovery codes</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></div>
+      </nav>
+
+      <section class="hero split-hero">
+        <div>
+          <p class="eyebrow">A camera-roll audit for developers</p>
+          <h1>API keys hide in screenshots.</h1>
+          <p class="lead">A screenshot of a terminal, cloud dashboard, debug log, or configuration screen can preserve a secret long after the original problem is fixed. SecretScan helps you find likely exposures on your iPhone.</p>
+          <div class="actions"><a class="button" href="https://apps.apple.com/app/apple-store/id6763880476?pt=120611987&amp;ct=seo_api_keys_sep1&amp;mt=8">Scan your photos free</a></div>
+          <p class="fine-print">On-device OCR. No photo or OCR-text upload to SecretScan servers.</p>
+        </div>
+        <div class="terminal-card" aria-label="Illustration of a redacted API key finding"><div class="terminal-top"><i></i><i></i><i></i></div><code>$ export API_KEY=<mark>sk_live_••••••••</mark><br><span>Potential API key</span><br><strong>High risk · Review</strong></code></div>
+      </section>
+
+      <section class="section">
+        <p class="eyebrow">Common hiding places</p>
+        <h2>Search the screenshots you forgot you kept.</h2>
+        <div class="grid feature-grid">
+          <div class="feature"><h3>Terminal &amp; logs</h3><p>Shell output, stack traces, build logs, and debugging sessions.</p></div>
+          <div class="feature"><h3>Cloud dashboards</h3><p>Credentials, tokens, webhook secrets, and configuration values.</p></div>
+          <div class="feature"><h3>Chats &amp; notes</h3><p>Temporary credential sharing that quietly became permanent storage.</p></div>
+        </div>
+      </section>
+
+      <section class="section grid checklist">
+        <div><p class="eyebrow">What SecretScan does</p><h2>A private first pass</h2><ul><li>Runs OCR and pattern detection on your device</li><li>Ranks likely findings for human review</li><li>Lets you save a redacted copy or delete an original</li></ul></div>
+        <div><p class="eyebrow">What it cannot do</p><h2>Detection is not revocation</h2><ul><li>It cannot guarantee every secret will be found</li><li>Pattern matching may produce false positives</li><li>Rotate or revoke a credential if it may have been exposed</li></ul></div>
+      </section>
+
+      <section class="section callout cta"><h2>Give your camera roll a security review.</h2><p>Start with a private scan, then decide what deserves action.</p><a class="button" href="https://apps.apple.com/app/apple-store/id6763880476?pt=120611987&amp;ct=seo_api_keys_sep1&amp;mt=8">Download SecretScan free</a></section>
+      <p class="footer">SecretScan for iPhone and iPad · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a></p>
+    </main>
+  </body>
+</html>
