@@ -31,7 +31,9 @@ Static pages for App Store Connect URLs:
 - `search-screenshots-by-text-iphone.html`: built-in Photos and Spotlight text-search guide.
 - `mac-private-file-scan.html`: Mac demand-validation page.
 - `robots.txt` and `sitemap.xml`: crawl discovery.
+- `llms.txt`: concise product boundaries and canonical sources for AI-assisted discovery.
 - `53e8f1b23307486a8c13ea79ed325d80.txt`: IndexNow ownership key for URLs under this GitHub Pages path.
+- `assets/og-card-source.html` and `assets/og-card.png`: reproducible 1200×630 social preview.
 
 ## Preview
 

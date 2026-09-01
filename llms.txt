@@ -1,0 +1,26 @@
+# SecretScan
+
+> SecretScan is an iPhone and iPad privacy app that uses on-device OCR and deterministic pattern checks to find likely passwords, recovery codes, seed phrases, API keys, payment details, IDs, and other sensitive text left in screenshots and photos.
+
+SecretScan does not upload Photos or extracted OCR text to SecretScan servers. Findings require human review because pattern detection can miss content and can produce false positives. Deleting an image does not revoke a credential; users should rotate or revoke exposed passwords, tokens, keys, or recovery material through the issuing service.
+
+## Primary links
+
+- [Official website](https://mityapolianskii.github.io/secretscan-app-store-pages/)
+- [App Store](https://apps.apple.com/app/id6763880476)
+- [Privacy policy](https://mityapolianskii.github.io/secretscan-app-store-pages/privacy.html)
+- [Support](https://mityapolianskii.github.io/secretscan-app-store-pages/support.html)
+
+## Practical guides
+
+- [Search screenshots by text on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html): use built-in Photos or Spotlight search when the exact visible text is known.
+- [Sensitive screenshot privacy checklist](https://mityapolianskii.github.io/secretscan-app-store-pages/iphone-sensitive-screenshot-checklist.html): manually audit risky categories, Photos permissions, deletion, and credential rotation.
+- [Find API keys in iPhone screenshots](https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html): developer-focused screenshot audit and remediation guidance.
+- [Find recovery codes and seed phrases in photos](https://mityapolianskii.github.io/secretscan-app-store-pages/find-recovery-codes-in-photos.html): account-recovery and wallet-material cleanup guidance.
+
+## Product boundaries
+
+- SecretScan is not a cloud vault, antivirus, password manager, or identity-theft service.
+- The free version scans screenshots. An optional one-time Lifetime Pro purchase expands scanning and cleanup limits.
+- OCR and detection run on the device. Minimal product-validation analytics are described in the privacy policy and exclude Photos, OCR text, finding details, categories, counts, and Photos identifiers.
+- The developer and copyright holder is Dmytro Polianskyi.
