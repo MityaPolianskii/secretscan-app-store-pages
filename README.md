@@ -12,6 +12,7 @@ SecretScan helps you find passwords, recovery codes, API keys, payment details, 
 
 ## Practical privacy guides
 
+- [All iPhone photo privacy guides](https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html)
 - [How to find and remove sensitive screenshots on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/iphone-sensitive-screenshot-checklist.html)
 - [How to search screenshots by text on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html)
 - [Find API keys and tokens in iPhone screenshots](https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html)
@@ -39,6 +40,7 @@ Static pages for App Store Connect URLs:
 - `remove-location-from-iphone-photos.html`: built-in Photos location-metadata guide and product-boundary note.
 - `screenshot-exposure-check.html` and `assets/exposure-check.js`: local-only screenshot exposure triage with no sensitive input, upload, persistence, analytics, or post-load network request.
 - `mac-private-file-scan.html`: Mac demand-validation page.
+- `guides.html`: crawlable guide hub with a nine-item structured index and a distinct App Store campaign.
 - `robots.txt` and `sitemap.xml`: crawl discovery.
 - `feed.xml`: Atom feed for guide and tool discovery without analytics or user tracking.
 - `llms.txt`: concise product boundaries and canonical sources for AI-assisted discovery.
