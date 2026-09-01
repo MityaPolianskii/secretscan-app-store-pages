@@ -15,6 +15,8 @@ SecretScan does not upload Photos or extracted OCR text to SecretScan servers. F
 
 - [Search screenshots by text on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html): use built-in Photos or Spotlight search when the exact visible text is known.
 - [Sensitive screenshot privacy checklist](https://mityapolianskii.github.io/secretscan-app-store-pages/iphone-sensitive-screenshot-checklist.html): manually audit risky categories, Photos permissions, deletion, and credential rotation.
+- [Redact sensitive information in an iPhone screenshot](https://mityapolianskii.github.io/secretscan-app-store-pages/redact-sensitive-information-iphone-screenshot.html): use built-in Markup carefully, distinguish opaque coverage from highlighting, and verify the copy before sharing.
+- [Remove location from iPhone photos](https://mityapolianskii.github.io/secretscan-app-store-pages/remove-location-from-iphone-photos.html): review or remove GPS metadata with built-in Photos controls; SecretScan does not scan location metadata.
 - [Find API keys in iPhone screenshots](https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html): developer-focused screenshot audit and remediation guidance.
 - [Find recovery codes and seed phrases in photos](https://mityapolianskii.github.io/secretscan-app-store-pages/find-recovery-codes-in-photos.html): account-recovery and wallet-material cleanup guidance.
 

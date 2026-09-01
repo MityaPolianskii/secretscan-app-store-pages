@@ -29,6 +29,8 @@ Static pages for App Store Connect URLs:
 - `find-recovery-codes-in-photos.html`: account-recovery intent acquisition page.
 - `iphone-sensitive-screenshot-checklist.html`: evergreen manual-audit guide.
 - `search-screenshots-by-text-iphone.html`: built-in Photos and Spotlight text-search guide.
+- `redact-sensitive-information-iphone-screenshot.html`: built-in Markup redaction guide and reversible-edit caveat.
+- `remove-location-from-iphone-photos.html`: built-in Photos location-metadata guide and product-boundary note.
 - `mac-private-file-scan.html`: Mac demand-validation page.
 - `robots.txt` and `sitemap.xml`: crawl discovery.
 - `llms.txt`: concise product boundaries and canonical sources for AI-assisted discovery.
