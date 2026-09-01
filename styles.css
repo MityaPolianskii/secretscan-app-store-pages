@@ -285,6 +285,41 @@ button.button,
   font-weight: 750;
 }
 
+.share-fallback {
+  display: grid;
+  gap: 6px;
+  margin-top: 14px;
+}
+
+.share-fallback[hidden] {
+  display: none;
+}
+
+.share-fallback label {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.share-fallback input {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 11px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--fg);
+  font: inherit;
+}
+
+.share-status {
+  min-height: 1.6em;
+  margin-top: 8px;
+  color: var(--accent-strong);
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .result-panel {
   scroll-margin-top: 18px;
   outline: none;

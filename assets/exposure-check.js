@@ -7,6 +7,10 @@
   const resultIntro = document.querySelector("[data-result-intro]");
   const resultSteps = document.querySelector("[data-result-steps]");
   const resetButton = document.querySelector("[data-reset-check]");
+  const shareButton = document.querySelector("[data-share-check]");
+  const shareFallback = document.querySelector("[data-share-fallback]");
+  const shareURLInput = document.querySelector("[data-share-url]");
+  const shareStatus = document.querySelector("[data-share-status]");
 
   if (!form || !result || !resultTitle || !resultIntro || !resultSteps || !resetButton) return;
 
@@ -119,5 +123,44 @@
     result.hidden = true;
     resetButton.hidden = true;
     form.querySelector("input")?.focus();
+  });
+
+  shareButton?.addEventListener("click", async () => {
+    const shareURL = "https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html";
+    const shareData = {
+      title: "Sensitive Screenshot Exposure Check",
+      text: "A free, private six-question check for what to do after a screenshot may have exposed a password or personal data. No upload or secret input.",
+      url: shareURL
+    };
+
+    if (shareStatus) shareStatus.textContent = "";
+    if (shareFallback) shareFallback.hidden = true;
+
+    if (typeof navigator.share === "function") {
+      try {
+        await navigator.share(shareData);
+        if (shareStatus) shareStatus.textContent = "Shared. No questionnaire answers were included.";
+        return;
+      } catch (error) {
+        if (error instanceof DOMException && error.name === "AbortError") return;
+      }
+    }
+
+    if (navigator.clipboard?.writeText) {
+      try {
+        await navigator.clipboard.writeText(shareURL);
+        if (shareStatus) shareStatus.textContent = "Link copied. No questionnaire answers were included.";
+        return;
+      } catch (_) {
+        // Fall through to the visible, selectable URL.
+      }
+    }
+
+    if (shareFallback && shareURLInput) {
+      shareFallback.hidden = false;
+      shareURLInput.focus();
+      shareURLInput.select();
+      if (shareStatus) shareStatus.textContent = "Copy the selected page link. No questionnaire answers are included.";
+    }
   });
 })();
