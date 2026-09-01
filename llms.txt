@@ -30,6 +30,7 @@ SecretScan does not upload Photos or extracted OCR text to SecretScan servers. F
 - [Find API keys in iPhone screenshots](https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html): developer-focused screenshot audit and remediation guidance.
 - [Find recovery codes and seed phrases in photos](https://mityapolianskii.github.io/secretscan-app-store-pages/find-recovery-codes-in-photos.html): account-recovery and wallet-material cleanup guidance.
 - [Find password screenshots and photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-passwords-in-iphone-photos.html): distinguish protected Passwords-app records from photographed credentials, then find and clean up image copies.
+- [Find credit card screenshots and photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-credit-card-photos-iphone.html): use built-in text search or a private checksum-and-context scan, then distinguish routine cleanup from possible exposure that needs issuer action.
 - [Find passport and ID photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-passport-id-photos-iphone.html): review old identity-document copies with Photos Utilities, exact-text search, private pattern checks, and deliberate cleanup.
 
 ## Product boundaries
