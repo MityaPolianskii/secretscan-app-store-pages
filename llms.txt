@@ -11,6 +11,7 @@ SecretScan does not upload Photos or extracted OCR text to SecretScan servers. F
 - [Privacy policy](https://mityapolianskii.github.io/secretscan-app-store-pages/privacy.html)
 - [Support](https://mityapolianskii.github.io/secretscan-app-store-pages/support.html)
 - [All iPhone photo privacy guides](https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html)
+- [Press and creator kit](https://mityapolianskii.github.io/secretscan-app-store-pages/press.html)
 - [Guide feed](https://mityapolianskii.github.io/secretscan-app-store-pages/feed.xml)
 
 ## Localized homepages

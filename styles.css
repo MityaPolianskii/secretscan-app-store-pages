@@ -212,6 +212,30 @@ li + li {
 .source-note { padding-top: 18px; border-top: 1px solid var(--line); font-size: 14px; }
 .source-note a { overflow-wrap: anywhere; }
 
+.press-icon {
+  width: min(190px, 56vw);
+  height: auto;
+  justify-self: center;
+  border-radius: 40px;
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.18);
+}
+
+.press-assets {
+  align-items: stretch;
+  margin-top: 20px;
+}
+
+.asset-card {
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.asset-card h3 { margin-top: 16px; }
+.asset-card p { color: var(--muted); }
+.asset-icon { width: 132px; height: 132px; border-radius: 28px; }
+.asset-preview { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; }
+
 .tool-intro {
   border-left: 4px solid var(--accent);
 }
