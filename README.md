@@ -8,7 +8,7 @@ SecretScan helps you find passwords, recovery codes, API keys, payment details, 
 - Save a redacted copy or delete the original after review.
 - Start with a free screenshot scan; Lifetime Pro is a one-time purchase.
 
-[Download SecretScan on the App Store](https://apps.apple.com/app/apple-store/id6763880476?pt=120611987&ct=github_repo_sep2&mt=8) · [Visit the website](https://mityapolianskii.github.io/secretscan-app-store-pages/) · [Read the privacy policy](https://mityapolianskii.github.io/secretscan-app-store-pages/privacy.html)
+[Download SecretScan on the App Store](https://apps.apple.com/app/apple-store/id6763880476?pt=120611987&ct=github_repo_sep2&mt=8) · [Visit the website](https://mityapolianskii.github.io/secretscan-app-store-pages/) · [Follow the guide feed](https://mityapolianskii.github.io/secretscan-app-store-pages/feed.xml) · [Read the privacy policy](https://mityapolianskii.github.io/secretscan-app-store-pages/privacy.html)
 
 ## Practical privacy guides
 
@@ -40,6 +40,7 @@ Static pages for App Store Connect URLs:
 - `screenshot-exposure-check.html` and `assets/exposure-check.js`: local-only screenshot exposure triage with no sensitive input, upload, persistence, analytics, or post-load network request.
 - `mac-private-file-scan.html`: Mac demand-validation page.
 - `robots.txt` and `sitemap.xml`: crawl discovery.
+- `feed.xml`: Atom feed for guide and tool discovery without analytics or user tracking.
 - `llms.txt`: concise product boundaries and canonical sources for AI-assisted discovery.
 - `53e8f1b23307486a8c13ea79ed325d80.txt`: IndexNow ownership key for URLs under this GitHub Pages path.
 - `assets/og-card-source.html` and `assets/og-card.png`: reproducible 1200×630 social preview.

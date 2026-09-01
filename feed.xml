@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SecretScan privacy guides</title>
+  <subtitle>Practical, source-grounded ways to find and reduce sensitive information left in iPhone screenshots and photos.</subtitle>
+  <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/" rel="alternate" type="text/html"/>
+  <id>https://mityapolianskii.github.io/secretscan-app-store-pages/</id>
+  <updated>2026-09-02T01:55:00+04:00</updated>
+  <author><name>Dmytro Polianskyi</name></author>
+  <icon>https://mityapolianskii.github.io/secretscan-app-store-pages/assets/app-icon.png</icon>
+
+  <entry>
+    <title>Find passport and ID photos on iPhone</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/find-passport-id-photos-iphone.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/find-passport-id-photos-iphone.html</id>
+    <updated>2026-09-02T01:55:00+04:00</updated>
+    <summary>Review old passport, license, and identity-document images with Photos Utilities, exact-text search, private pattern checks, and deliberate cleanup.</summary>
+  </entry>
+  <entry>
+    <title>Find password screenshots and photos on iPhone</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/find-passwords-in-iphone-photos.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/find-passwords-in-iphone-photos.html</id>
+    <updated>2026-09-02T01:55:00+04:00</updated>
+    <summary>Separate protected Passwords records from photographed credentials, then find and clean up image copies deliberately.</summary>
+  </entry>
+  <entry>
+    <title>Shared a sensitive screenshot? Check what to do next</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html</id>
+    <updated>2026-09-02T01:55:00+04:00</updated>
+    <summary>Answer six local questions to prioritize credential revocation, redaction, deletion, and Photos permission cleanup without entering a secret or uploading a photo.</summary>
+  </entry>
+  <entry>
+    <title>How to remove location from iPhone photos before sharing</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/remove-location-from-iphone-photos.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/remove-location-from-iphone-photos.html</id>
+    <updated>2026-09-02T01:55:00+04:00</updated>
+    <summary>Review GPS metadata, remove a saved location, or omit location from a shared copy using built-in Photos controls.</summary>
+  </entry>
+  <entry>
+    <title>How to redact sensitive information in an iPhone screenshot</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/redact-sensitive-information-iphone-screenshot.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/redact-sensitive-information-iphone-screenshot.html</id>
+    <updated>2026-09-02T01:55:00+04:00</updated>
+    <summary>Use an opaque Markup shape, preserve the source separately, and inspect the result at full size before sharing.</summary>
+  </entry>
+  <entry>
+    <title>How to find and remove sensitive screenshots on iPhone</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/iphone-sensitive-screenshot-checklist.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/iphone-sensitive-screenshot-checklist.html</id>
+    <updated>2026-09-02T01:55:00+04:00</updated>
+    <summary>Manually audit risky screenshot categories, Photos permissions, deletion, and credential rotation.</summary>
+  </entry>
+  <entry>
+    <title>How to search screenshots by text on iPhone</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html</id>
+    <updated>2026-09-02T01:55:00+04:00</updated>
+    <summary>Use built-in Photos or Spotlight search when you remember a word, email address, phone number, or other visible text.</summary>
+  </entry>
+  <entry>
+    <title>Find recovery codes and seed phrases in photos</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/find-recovery-codes-in-photos.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/find-recovery-codes-in-photos.html</id>
+    <updated>2026-09-02T01:55:00+04:00</updated>
+    <summary>Find account-recovery and wallet material in screenshots and photos, then move it to a safer recovery plan.</summary>
+  </entry>
+  <entry>
+    <title>Find API keys in iPhone screenshots</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html</id>
+    <updated>2026-09-02T01:55:00+04:00</updated>
+    <summary>Audit screenshots of terminals, dashboards, logs, and configuration screens for API keys and tokens.</summary>
+  </entry>
+</feed>
