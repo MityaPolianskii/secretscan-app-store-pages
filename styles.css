@@ -203,6 +203,14 @@ li + li {
 .cta .button { margin-top: 8px; }
 .mac-strip { display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 .mac-strip p { max-width: 640px; color: var(--muted); }
+.article-hero h1 { max-width: 760px; }
+.article { max-width: 760px; margin-inline: auto; }
+.article h2 { margin-top: 30px; }
+.article h3 { margin-top: 24px; }
+.article p, .article li { color: var(--muted); }
+.article strong { color: var(--fg); }
+.source-note { padding-top: 18px; border-top: 1px solid var(--line); font-size: 14px; }
+.source-note a { overflow-wrap: anywhere; }
 
 .meta {
   color: var(--muted);

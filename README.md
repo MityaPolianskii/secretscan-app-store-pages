@@ -4,6 +4,11 @@ Static pages for App Store Connect URLs:
 
 - `privacy.html`: Privacy Policy URL.
 - `support.html`: Support URL.
+- `scan-api-keys-in-screenshots.html`: developer-intent acquisition page.
+- `find-recovery-codes-in-photos.html`: account-recovery intent acquisition page.
+- `iphone-sensitive-screenshot-checklist.html`: evergreen manual-audit guide.
+- `mac-private-file-scan.html`: Mac demand-validation page.
+- `robots.txt` and `sitemap.xml`: crawl discovery.
 
 ## Preview
 
