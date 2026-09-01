@@ -19,6 +19,7 @@ SecretScan does not upload Photos or extracted OCR text to SecretScan servers. F
 
 ## Practical guides
 
+- [Sensitive screenshot exposure check](https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html): answer six local Yes, No, or Unsure questions to prioritize revocation, redaction, deletion, and Photos permission cleanup without entering a secret or uploading a photo.
 - [Search screenshots by text on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html): use built-in Photos or Spotlight search when the exact visible text is known.
 - [Sensitive screenshot privacy checklist](https://mityapolianskii.github.io/secretscan-app-store-pages/iphone-sensitive-screenshot-checklist.html): manually audit risky categories, Photos permissions, deletion, and credential rotation.
 - [Redact sensitive information in an iPhone screenshot](https://mityapolianskii.github.io/secretscan-app-store-pages/redact-sensitive-information-iphone-screenshot.html): use built-in Markup carefully, distinguish opaque coverage from highlighting, and verify the copy before sharing.

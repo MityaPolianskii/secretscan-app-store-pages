@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+    <title>Shared a sensitive screenshot? Check what to do next</title>
+    <meta name="description" content="Answer six private yes-or-no questions to prioritize credential revocation, redaction, deletion, and iPhone Photos permission cleanup. No upload or secret input.">
+    <meta name="apple-itunes-app" content="app-id=6763880476">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Shared a sensitive screenshot? Check what to do next">
+    <meta property="og:description" content="A private, no-upload triage tool for passwords, recovery codes, API keys, personal data, and other information exposed in a screenshot.">
+    <meta property="og:url" content="https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html">
+    <meta property="og:image" content="https://mityapolianskii.github.io/secretscan-app-store-pages/assets/og-card.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="SecretScan finds sensitive text hiding in iPhone screenshots and photos">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://mityapolianskii.github.io/secretscan-app-store-pages/assets/og-card.png">
+    <link rel="canonical" href="https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html">
+    <link rel="icon" href="assets/app-icon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Sensitive Screenshot Exposure Check",
+        "description": "A local, no-upload questionnaire that prioritizes remediation after a screenshot may have exposed credentials or private information.",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "isAccessibleForFree": true,
+        "url": "https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html",
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "author": {"@type": "Person", "name": "Dmytro Polianskyi"}
+      }
+    </script>
+    <script src="assets/exposure-check.js" defer></script>
+  </head>
+  <body>
+    <main class="page">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html"><span class="mark">S</span><span>SecretScan</span></a>
+        <div class="links"><a href="iphone-sensitive-screenshot-checklist.html">Privacy checklist</a><a href="redact-sensitive-information-iphone-screenshot.html">Redact screenshots</a><a href="search-screenshots-by-text-iphone.html">Search screenshots</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></div>
+      </nav>
+
+      <header class="hero article-hero">
+        <p class="eyebrow">Private screenshot triage</p>
+        <h1>Shared a screenshot with a password or private data?</h1>
+        <p class="lead">Answer six questions to put the next actions in a safer order. This page never asks you to paste a secret, identify an account, or upload a photo.</p>
+        <div class="actions"><a class="button" href="#exposure-check">Start the private check</a><a class="text-link" href="#how-private">How this stays private</a></div>
+      </header>
+
+      <section class="section tool-intro" id="how-private">
+        <p class="eyebrow">No sensitive input</p>
+        <h2>The check runs entirely in this browser tab.</h2>
+        <p>You select only Yes, No, or Unsure. The page has no analytics, account, text field, photo picker, upload, or network request after it loads. Your answers are not saved. Do not paste an actual password, token, recovery code, or private message into any website to use this tool.</p>
+      </section>
+
+      <section class="section" id="exposure-check">
+        <p class="eyebrow">Six decisions</p>
+        <h2>Describe the situation without sharing the sensitive content.</h2>
+        <form class="triage-form" data-exposure-form>
+          <fieldset>
+            <legend>1. Does the image show anything that could grant account or system access?</legend>
+            <p class="field-help">Examples: a password, passcode, 2FA code, recovery code, seed phrase, API key, access token, private key, or login QR code.</p>
+            <div class="choice-row"><label><input type="radio" name="access" value="yes" required> Yes</label><label><input type="radio" name="access" value="no"> No</label><label><input type="radio" name="access" value="unsure"> Unsure</label></div>
+          </fieldset>
+
+          <fieldset>
+            <legend>2. Could anyone or any service beyond you have received the image?</legend>
+            <p class="field-help">Include messages, tickets, social posts, shared albums, work systems, synchronized devices, and cloud backups you do not fully control.</p>
+            <div class="choice-row"><label><input type="radio" name="exposure" value="yes" required> Yes</label><label><input type="radio" name="exposure" value="no"> No</label><label><input type="radio" name="exposure" value="unsure"> Unsure</label></div>
+          </fieldset>
+
+          <fieldset>
+            <legend>3. If a credential is shown, could it still work?</legend>
+            <p class="field-help">Choose Unsure when you have not confirmed its status with the service that issued it.</p>
+            <div class="choice-row"><label><input type="radio" name="active" value="yes" required> Yes</label><label><input type="radio" name="active" value="no"> No</label><label><input type="radio" name="active" value="unsure"> Unsure</label></div>
+          </fieldset>
+
+          <fieldset>
+            <legend>4. Is this the only copy of information you still need?</legend>
+            <p class="field-help">For example, the only recovery-code list, receipt, document, or account detail you can currently access.</p>
+            <div class="choice-row"><label><input type="radio" name="onlyCopy" value="yes" required> Yes</label><label><input type="radio" name="onlyCopy" value="no"> No</label><label><input type="radio" name="onlyCopy" value="unsure"> Unsure</label></div>
+          </fieldset>
+
+          <fieldset>
+            <legend>5. Does the image show other personal, financial, identity, health, work, or location information?</legend>
+            <p class="field-help">Inspect the entire frame, including notifications, browser tabs, filenames, QR codes, addresses, faces, backgrounds, and photo metadata.</p>
+            <div class="choice-row"><label><input type="radio" name="personal" value="yes" required> Yes</label><label><input type="radio" name="personal" value="no"> No</label><label><input type="radio" name="personal" value="unsure"> Unsure</label></div>
+          </fieldset>
+
+          <fieldset>
+            <legend>6. Does the original still exist in Photos, Recently Deleted, or another copy you control?</legend>
+            <p class="field-help">A redacted sharing copy does not automatically remove the original or invalidate a credential.</p>
+            <div class="choice-row"><label><input type="radio" name="remaining" value="yes" required> Yes</label><label><input type="radio" name="remaining" value="no"> No</label><label><input type="radio" name="remaining" value="unsure"> Unsure</label></div>
+          </fieldset>
+
+          <div class="actions"><button class="button" type="submit">Build my action order</button><button class="secondary-button" type="button" data-reset-check hidden>Start over</button></div>
+        </form>
+      </section>
+
+      <section class="section result-panel" data-exposure-result aria-live="polite" tabindex="-1" hidden>
+        <p class="eyebrow">Your action order</p>
+        <h2 data-result-title></h2>
+        <p data-result-intro></p>
+        <ol class="result-steps" data-result-steps></ol>
+        <p class="fine-print">This is a prioritization aid, not a guarantee, breach investigation, or identity-theft service. The credential provider and the destination where the image was shared remain the sources of truth.</p>
+      </section>
+
+      <section class="section callout">
+        <h2>Need to find the screenshots before you can triage them?</h2>
+        <p>SecretScan uses on-device OCR and deterministic pattern checks to narrow an iPhone screenshot library to likely passwords, recovery codes, API keys, payment details, IDs, and other sensitive text. Human review is still required.</p>
+        <div class="actions"><a class="button" href="https://apps.apple.com/app/apple-store/id6763880476?pt=120611987&amp;ct=tool_exposure_check_sep2&amp;mt=8">Scan screenshots free</a><a class="text-link" href="iphone-sensitive-screenshot-checklist.html">Open the manual checklist</a></div>
+      </section>
+
+      <article class="section article">
+        <h2>Why revocation comes before deletion</h2>
+        <p>Removing an image reduces one copy of the exposure. It does not stop a password, token, API key, recovery code, or private key from working. For an active or uncertain credential, use the issuing service to replace and revoke it, then clean up the screenshot and any destinations where it appeared.</p>
+
+        <h2>Related guides</h2>
+        <ul>
+          <li><a href="redact-sensitive-information-iphone-screenshot.html">Redact private information in an iPhone screenshot</a></li>
+          <li><a href="remove-location-from-iphone-photos.html">Remove photo location metadata before sharing</a></li>
+          <li><a href="iphone-sensitive-screenshot-checklist.html">Run a complete camera-roll privacy audit</a></li>
+        </ul>
+
+        <div class="source-note">
+          <p><strong>Primary references:</strong> GitHub's <a href="https://docs.github.com/en/enterprise-cloud@latest/code-security/tutorials/remediate-leaked-secrets/remediating-a-leaked-secret">leaked-secret remediation guide</a>, Apple's <a href="https://support.apple.com/guide/iphone/delete-or-hide-photos-and-videos-iphb4defbde9/ios">photo deletion guide</a>, and Apple's <a href="https://support.apple.com/guide/iphone/control-access-to-information-in-apps-iph251e92810/ios">app-access controls</a>.</p>
+          <p>Last reviewed September 2, 2026.</p>
+        </div>
+      </article>
+
+      <p class="footer">SecretScan for iPhone and iPad · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a></p>
+    </main>
+  </body>
+</html>
