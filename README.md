@@ -9,6 +9,7 @@ Static pages for App Store Connect URLs:
 - `iphone-sensitive-screenshot-checklist.html`: evergreen manual-audit guide.
 - `mac-private-file-scan.html`: Mac demand-validation page.
 - `robots.txt` and `sitemap.xml`: crawl discovery.
+- `53e8f1b23307486a8c13ea79ed325d80.txt`: IndexNow ownership key for URLs under this GitHub Pages path.
 
 ## Preview
 
