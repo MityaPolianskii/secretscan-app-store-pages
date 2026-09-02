@@ -36,6 +36,10 @@ SecretScan helps you find passwords, recovery codes, API keys, payment details, 
   - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-paroli-v-foto-iphone.html)
 - [Find credit card screenshots and photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-credit-card-photos-iphone.html)
 - [Find passport and ID photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-passport-id-photos-iphone.html)
+- [Redact private information in an iPhone screenshot](https://mityapolianskii.github.io/secretscan-app-store-pages/redact-sensitive-information-iphone-screenshot.html)
+  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/ocultar-datos-captura-iphone.html)
+  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-screenshot-private-daten-abdecken.html)
+  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/skryt-lichnye-dannye-skrinshot-iphone.html)
 
 SecretScan is a focused photo-privacy audit, not a cloud vault, antivirus, password manager, or guarantee that every sensitive image will be found. If a credential may have been exposed, rotate or revoke it; deleting its screenshot does not invalidate it.
 
@@ -49,6 +53,7 @@ Static pages for App Store Connect URLs:
 - `es/encontrar-contrasenas-fotos-iphone.html`, `de/passwoerter-in-iphone-fotos-finden.html`, and `ru/nayti-paroli-v-foto-iphone.html`: localized password-photo guides with reciprocal `hreflang`, localized Apple sources, and distinct App Store campaigns.
 - `es/buscar-capturas-texto-iphone.html`, `de/iphone-screenshots-nach-text-suchen.html`, and `ru/poisk-skrinshotov-po-tekstu-iphone.html`: localized screenshot-text search guides with reciprocal `hreflang`, localized Apple sources, and distinct App Store campaigns.
 - `es/eliminar-capturas-sensibles-iphone.html`, `de/sensible-screenshots-iphone-finden-loeschen.html`, and `ru/nayti-udalit-chuvstvitelnye-skrinshoty-iphone.html`: localized sensitive-screenshot checklists with reciprocal `hreflang`, localized primary sources, and distinct App Store campaigns.
+- `es/ocultar-datos-captura-iphone.html`, `de/iphone-screenshot-private-daten-abdecken.html`, and `ru/skryt-lichnye-dannye-skrinshot-iphone.html`: localized screenshot-redaction guides with reciprocal `hreflang`, localized Apple sources, and distinct App Store campaigns.
 - `privacy.html`: Privacy Policy URL.
 - `support.html`: Support URL.
 - `scan-api-keys-in-screenshots.html`: developer-intent acquisition page.
@@ -58,7 +63,7 @@ Static pages for App Store Connect URLs:
 - `find-passport-id-photos-iphone.html`: passport and identity-document photo audit guide.
 - `iphone-sensitive-screenshot-checklist.html`: English member of the four-language evergreen manual-audit cluster.
 - `search-screenshots-by-text-iphone.html`: built-in Photos and Spotlight text-search guide.
-- `redact-sensitive-information-iphone-screenshot.html`: built-in Markup redaction guide and reversible-edit caveat.
+- `redact-sensitive-information-iphone-screenshot.html`: English member of the four-language built-in Markup redaction cluster.
 - `remove-location-from-iphone-photos.html`: built-in Photos location-metadata guide and product-boundary note.
 - `check-which-apps-access-iphone-photos.html`: built-in Photos permission audit, App Privacy Report guidance, and device-access boundary note.
 - `screenshot-exposure-check.html`, `es/revisar-captura-sensible.html`, `de/geteilten-screenshot-pruefen.html`, `ru/proverit-otpravlennyy-skrinshot.html`, and `assets/exposure-check.js`: localized, local-only screenshot exposure triage with reciprocal `hreflang`, separate App Store campaigns, and no sensitive input, upload, persistence, analytics, or post-load network request.
