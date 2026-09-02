@@ -5,7 +5,7 @@
   <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/" rel="alternate" type="text/html"/>
   <id>https://mityapolianskii.github.io/secretscan-app-store-pages/</id>
-  <updated>2026-09-02T02:11:56+04:00</updated>
+  <updated>2026-09-02T05:02:14+04:00</updated>
   <author><name>Dmytro Polianskyi</name></author>
   <icon>https://mityapolianskii.github.io/secretscan-app-store-pages/assets/app-icon.png</icon>
 
@@ -73,10 +73,10 @@
     <summary>Find account-recovery and wallet material in screenshots and photos, then move it to a safer recovery plan.</summary>
   </entry>
   <entry>
-    <title>Find API keys in iPhone screenshots</title>
+    <title>Your camera roll is part of your developer threat model</title>
     <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html"/>
     <id>https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html</id>
-    <updated>2026-09-02T01:55:00+04:00</updated>
-    <summary>Audit screenshots of terminals, dashboards, logs, and configuration screens for API keys and tokens.</summary>
+    <updated>2026-09-02T05:02:14+04:00</updated>
+    <summary>Audit terminal, dashboard, support, and recovery screenshots for secrets, then rotate or revoke credentials before cleaning up the image copy.</summary>
   </entry>
 </feed>
