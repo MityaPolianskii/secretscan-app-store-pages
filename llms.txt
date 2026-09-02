@@ -40,6 +40,9 @@ SecretScan does not upload Photos or extracted OCR text to SecretScan servers. F
   - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/proverit-otpravlennyy-skrinshot.html)
 - [Search screenshots by text on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html): use built-in Photos or Spotlight search when the exact visible text is known.
 - [Sensitive screenshot privacy checklist](https://mityapolianskii.github.io/secretscan-app-store-pages/iphone-sensitive-screenshot-checklist.html): manually audit risky categories, Photos permissions, deletion, and credential rotation.
+  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/eliminar-capturas-sensibles-iphone.html)
+  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/sensible-screenshots-iphone-finden-loeschen.html)
+  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-udalit-chuvstvitelnye-skrinshoty-iphone.html)
 - [Check which apps can access your iPhone photos](https://mityapolianskii.github.io/secretscan-app-store-pages/check-which-apps-access-iphone-photos.html): review Photos permissions, recent access in App Privacy Report, and the limits of changing device access.
 - [Redact sensitive information in an iPhone screenshot](https://mityapolianskii.github.io/secretscan-app-store-pages/redact-sensitive-information-iphone-screenshot.html): use built-in Markup carefully, distinguish opaque coverage from highlighting, and verify the copy before sharing.
 - [Remove location from iPhone photos](https://mityapolianskii.github.io/secretscan-app-store-pages/remove-location-from-iphone-photos.html): review or remove GPS metadata with built-in Photos controls; SecretScan does not scan location metadata.

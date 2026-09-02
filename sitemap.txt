@@ -15,6 +15,9 @@ https://mityapolianskii.github.io/secretscan-app-store-pages/es/buscar-capturas-
 https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-screenshots-nach-text-suchen.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/ru/poisk-skrinshotov-po-tekstu-iphone.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/iphone-sensitive-screenshot-checklist.html
+https://mityapolianskii.github.io/secretscan-app-store-pages/es/eliminar-capturas-sensibles-iphone.html
+https://mityapolianskii.github.io/secretscan-app-store-pages/de/sensible-screenshots-iphone-finden-loeschen.html
+https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-udalit-chuvstvitelnye-skrinshoty-iphone.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/redact-sensitive-information-iphone-screenshot.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/remove-location-from-iphone-photos.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/check-which-apps-access-iphone-photos.html

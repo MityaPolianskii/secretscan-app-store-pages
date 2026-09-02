@@ -16,6 +16,9 @@ SecretScan helps you find passwords, recovery codes, API keys, payment details, 
 
 - [All iPhone photo privacy guides](https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html)
 - [How to find and remove sensitive screenshots on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/iphone-sensitive-screenshot-checklist.html)
+  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/eliminar-capturas-sensibles-iphone.html)
+  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/sensible-screenshots-iphone-finden-loeschen.html)
+  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-udalit-chuvstvitelnye-skrinshoty-iphone.html)
 - [Shared a sensitive screenshot? Check what to do next](https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html)
   - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/revisar-captura-sensible.html)
   - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/geteilten-screenshot-pruefen.html)
@@ -45,6 +48,7 @@ Static pages for App Store Connect URLs:
 - `es/apps-acceso-fotos-iphone.html`, `de/apps-zugriff-iphone-fotos.html`, and `ru/dostup-prilozheniy-k-foto-iphone.html`: localized Photos-permission guides with reciprocal `hreflang` and distinct App Store campaigns.
 - `es/encontrar-contrasenas-fotos-iphone.html`, `de/passwoerter-in-iphone-fotos-finden.html`, and `ru/nayti-paroli-v-foto-iphone.html`: localized password-photo guides with reciprocal `hreflang`, localized Apple sources, and distinct App Store campaigns.
 - `es/buscar-capturas-texto-iphone.html`, `de/iphone-screenshots-nach-text-suchen.html`, and `ru/poisk-skrinshotov-po-tekstu-iphone.html`: localized screenshot-text search guides with reciprocal `hreflang`, localized Apple sources, and distinct App Store campaigns.
+- `es/eliminar-capturas-sensibles-iphone.html`, `de/sensible-screenshots-iphone-finden-loeschen.html`, and `ru/nayti-udalit-chuvstvitelnye-skrinshoty-iphone.html`: localized sensitive-screenshot checklists with reciprocal `hreflang`, localized primary sources, and distinct App Store campaigns.
 - `privacy.html`: Privacy Policy URL.
 - `support.html`: Support URL.
 - `scan-api-keys-in-screenshots.html`: developer-intent acquisition page.
@@ -52,7 +56,7 @@ Static pages for App Store Connect URLs:
 - `find-passwords-in-iphone-photos.html`: password-screenshot intent guide and cleanup path.
 - `find-credit-card-photos-iphone.html`: payment-card image search, private detector boundaries, and issuer-response guide.
 - `find-passport-id-photos-iphone.html`: passport and identity-document photo audit guide.
-- `iphone-sensitive-screenshot-checklist.html`: evergreen manual-audit guide.
+- `iphone-sensitive-screenshot-checklist.html`: English member of the four-language evergreen manual-audit cluster.
 - `search-screenshots-by-text-iphone.html`: built-in Photos and Spotlight text-search guide.
 - `redact-sensitive-information-iphone-screenshot.html`: built-in Markup redaction guide and reversible-edit caveat.
 - `remove-location-from-iphone-photos.html`: built-in Photos location-metadata guide and product-boundary note.
