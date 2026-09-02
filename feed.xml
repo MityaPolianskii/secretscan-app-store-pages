@@ -3,6 +3,7 @@
   <title>SecretScan privacy guides</title>
   <subtitle>Practical, source-grounded ways to find and reduce sensitive information left in iPhone screenshots and photos.</subtitle>
   <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/" rel="alternate" type="text/html"/>
   <id>https://mityapolianskii.github.io/secretscan-app-store-pages/</id>
   <updated>2026-09-02T05:02:14+04:00</updated>
