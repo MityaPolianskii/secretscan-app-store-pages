@@ -90,6 +90,30 @@ a {
   color: var(--fg);
 }
 
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: -18px 0 20px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.breadcrumb a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: var(--fg);
+}
+
+.breadcrumb [aria-current="page"] {
+  color: var(--fg);
+  font-weight: 700;
+}
+
 .hero,
 .section {
   background: var(--card);
