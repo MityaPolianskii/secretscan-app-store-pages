@@ -32,6 +32,7 @@ Static pages for App Store Connect URLs:
 
 - `index.html`: English acquisition homepage.
 - `es/index.html`, `de/index.html`, and `ru/index.html`: focused localized homepages with reciprocal `hreflang` and distinct App Store campaigns.
+- `es/apps-acceso-fotos-iphone.html`, `de/apps-zugriff-iphone-fotos.html`, and `ru/dostup-prilozheniy-k-foto-iphone.html`: localized Photos-permission guides with reciprocal `hreflang` and distinct App Store campaigns.
 - `privacy.html`: Privacy Policy URL.
 - `support.html`: Support URL.
 - `scan-api-keys-in-screenshots.html`: developer-intent acquisition page.
