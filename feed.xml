@@ -6,7 +6,7 @@
   <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/" rel="alternate" type="text/html"/>
   <id>https://mityapolianskii.github.io/secretscan-app-store-pages/</id>
-  <updated>2026-09-02T07:45:00+04:00</updated>
+  <updated>2026-09-02T08:20:00+04:00</updated>
   <author><name>Dmytro Polianskyi</name></author>
   <icon>https://mityapolianskii.github.io/secretscan-app-store-pages/assets/app-icon.png</icon>
 
@@ -39,6 +39,28 @@
     <summary>Проверьте приложения, запрашивавшие доступ к Фото, уберите лишние разрешения и посмотрите недавнюю активность.</summary>
   </entry>
 
+  <entry xml:lang="es">
+    <title>Cómo encontrar contraseñas en fotos del iPhone</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/encontrar-contrasenas-fotos-iphone.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/es/encontrar-contrasenas-fotos-iphone.html</id>
+    <updated>2026-09-02T08:20:00+04:00</updated>
+    <summary>Busca contraseñas fotografiadas con Fotos o una revisión privada en el dispositivo, conserva el acceso y elimina copias en el orden correcto.</summary>
+  </entry>
+  <entry xml:lang="de">
+    <title>Passwörter in iPhone-Fotos und Screenshots finden</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/passwoerter-in-iphone-fotos-finden.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/de/passwoerter-in-iphone-fotos-finden.html</id>
+    <updated>2026-09-02T08:20:00+04:00</updated>
+    <summary>Finde fotografierte Passwörter mit Fotos oder einer privaten Prüfung auf dem Gerät, sichere den Zugriff und entferne Bildkopien in der richtigen Reihenfolge.</summary>
+  </entry>
+  <entry xml:lang="ru">
+    <title>Как найти пароли на фото и скриншотах iPhone</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-paroli-v-foto-iphone.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-paroli-v-foto-iphone.html</id>
+    <updated>2026-09-02T08:20:00+04:00</updated>
+    <summary>Найдите сфотографированные пароли через Фото или приватную проверку на устройстве, сохраните доступ и правильно удалите копии.</summary>
+  </entry>
+
   <entry>
     <title>Find credit card screenshots and photos on iPhone</title>
     <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/find-credit-card-photos-iphone.html"/>
@@ -57,7 +79,7 @@
     <title>Find password screenshots and photos on iPhone</title>
     <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/find-passwords-in-iphone-photos.html"/>
     <id>https://mityapolianskii.github.io/secretscan-app-store-pages/find-passwords-in-iphone-photos.html</id>
-    <updated>2026-09-02T01:55:00+04:00</updated>
+    <updated>2026-09-02T08:20:00+04:00</updated>
     <summary>Separate protected Passwords records from photographed credentials, then find and clean up image copies deliberately.</summary>
   </entry>
   <entry>

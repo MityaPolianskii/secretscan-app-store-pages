@@ -21,6 +21,9 @@ SecretScan helps you find passwords, recovery codes, API keys, payment details, 
 - [Find API keys and tokens in iPhone screenshots](https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html)
 - [Find recovery codes and seed phrases in photos](https://mityapolianskii.github.io/secretscan-app-store-pages/find-recovery-codes-in-photos.html)
 - [Find password screenshots and photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-passwords-in-iphone-photos.html)
+  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/encontrar-contrasenas-fotos-iphone.html)
+  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/passwoerter-in-iphone-fotos-finden.html)
+  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-paroli-v-foto-iphone.html)
 - [Find credit card screenshots and photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-credit-card-photos-iphone.html)
 - [Find passport and ID photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-passport-id-photos-iphone.html)
 
@@ -33,6 +36,7 @@ Static pages for App Store Connect URLs:
 - `index.html`: English acquisition homepage.
 - `es/index.html`, `de/index.html`, and `ru/index.html`: focused localized homepages with reciprocal `hreflang` and distinct App Store campaigns.
 - `es/apps-acceso-fotos-iphone.html`, `de/apps-zugriff-iphone-fotos.html`, and `ru/dostup-prilozheniy-k-foto-iphone.html`: localized Photos-permission guides with reciprocal `hreflang` and distinct App Store campaigns.
+- `es/encontrar-contrasenas-fotos-iphone.html`, `de/passwoerter-in-iphone-fotos-finden.html`, and `ru/nayti-paroli-v-foto-iphone.html`: localized password-photo guides with reciprocal `hreflang`, localized Apple sources, and distinct App Store campaigns.
 - `privacy.html`: Privacy Policy URL.
 - `support.html`: Support URL.
 - `scan-api-keys-in-screenshots.html`: developer-intent acquisition page.
