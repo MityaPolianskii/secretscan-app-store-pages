@@ -54,6 +54,7 @@ Static pages for App Store Connect URLs:
 - `llms.txt`: concise product boundaries and canonical sources for AI-assisted discovery.
 - `53e8f1b23307486a8c13ea79ed325d80.txt`: IndexNow ownership key for URLs under this GitHub Pages path.
 - `assets/og-card-source.html` and `assets/og-card.png`: reproducible 1200×630 social preview.
+- `assets/og-card-es-source.html`, `assets/og-card-de-source.html`, and `assets/og-card-ru-source.html`: reproducible localized 1200×630 social previews and their matching PNG files.
 - `assets/exposure-check-card-source.html` and `assets/exposure-check-card.png`: reproducible tool-specific 1200×630 social preview.
 
 ## Preview

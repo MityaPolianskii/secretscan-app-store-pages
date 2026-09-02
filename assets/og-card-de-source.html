@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1200, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Deutsche SecretScan-Vorschau</title>
+    <link rel="icon" href="app-icon.png" type="image/png">
+    <style>
+      * { box-sizing: border-box; }
+      html, body { width: 1200px; height: 630px; margin: 0; overflow: hidden; }
+      body {
+        color: #f8fafc;
+        background:
+          radial-gradient(circle at 82% 18%, rgba(20, 184, 166, .26), transparent 28%),
+          radial-gradient(circle at 12% 94%, rgba(15, 118, 110, .28), transparent 31%),
+          linear-gradient(140deg, #071019 0%, #0b1320 56%, #0b2524 100%);
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      }
+      .card { position: relative; display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, .8fr); width: 100%; height: 100%; padding: 58px 62px; gap: 50px; }
+      .card::before { content: ""; position: absolute; inset: 22px; border: 1px solid rgba(153, 246, 228, .18); border-radius: 28px; pointer-events: none; }
+      .copy { position: relative; z-index: 2; align-self: center; min-width: 0; }
+      .brand { display: flex; align-items: center; gap: 18px; margin-bottom: 30px; }
+      .brand img { width: 72px; height: 72px; border-radius: 17px; box-shadow: 0 16px 35px rgba(0,0,0,.34); }
+      .brand strong { font-size: 30px; letter-spacing: -.02em; }
+      .brand span { display: block; margin-top: 3px; color: #99f6e4; font-size: 16px; font-weight: 700; }
+      h1 { max-width: 620px; margin: 0; font-size: 51px; line-height: 1; letter-spacing: -.045em; }
+      .lead { max-width: 680px; margin: 22px 0 25px; color: #cbd5e1; font-size: 21px; line-height: 1.35; }
+      .proof { display: flex; gap: 9px; }
+      .proof span { padding: 9px 11px; border: 1px solid rgba(153,246,228,.27); border-radius: 999px; background: rgba(15,118,110,.18); color: #ccfbf1; font-size: 13px; font-weight: 750; white-space: nowrap; }
+      .visual { position: relative; align-self: center; min-width: 0; height: 480px; }
+      .finding { position: absolute; width: 300px; padding: 20px; border: 1px solid rgba(255,255,255,.12); border-radius: 20px; box-shadow: 0 28px 70px rgba(0,0,0,.34); }
+      .finding small { display: block; margin-bottom: 11px; font-size: 13px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+      .finding strong { display: block; font: 750 19px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
+      .finding p { margin: 11px 0 0; font-size: 14px; font-weight: 700; }
+      .api { top: 10px; left: 0; transform: rotate(2deg); background: #111c2c; }
+      .api small, .api p { color: #fda4af; }
+      .api mark { padding: 2px 5px; background: #7f1d1d; color: #fecaca; }
+      .recovery { top: 169px; left: 30px; transform: rotate(-2.2deg); background: #e9f5f2; color: #163c36; }
+      .recovery small, .recovery p { color: #0f766e; }
+      .password { top: 328px; left: 4px; transform: rotate(1.2deg); background: #171827; }
+      .password small, .password p { color: #c4b5fd; }
+      .password mark { padding: 2px 5px; background: #4c1d95; color: #ede9fe; }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <section class="copy">
+        <div class="brand">
+          <img src="app-icon.png" alt="">
+          <div><strong>SecretScan</strong><span>Privater Fotoschutz für das iPhone</span></div>
+        </div>
+        <h1>Deine Fotomediathek merkt sich vielleicht zu viel.</h1>
+        <p class="lead">Finde Passwörter, Wiederherstellungscodes, API-Schlüssel und andere sensible Texte in Screenshots und Fotos.</p>
+        <div class="proof"><span>OCR auf dem Gerät</span><span>Keine Foto-Uploads</span><span>Erster Scan kostenlos</span></div>
+      </section>
+      <section class="visual" aria-hidden="true">
+        <div class="finding api"><small>Entwickler-Screenshot</small><strong>API_KEY=<mark>sk_live_••••••</mark></strong><p>Möglicher API-Schlüssel · Prüfen</p></div>
+        <div class="finding recovery"><small>Kontowiederherstellung</small><strong>ABCD-•••• &nbsp; J7KP-••••</strong><p>Möglicher Code · Prüfen</p></div>
+        <div class="finding password"><small>Private Notiz</small><strong>Passwort: <mark>••••••••••</mark></strong><p>Mögliches Passwort · Prüfen</p></div>
+      </section>
+    </main>
+  </body>
+</html>
