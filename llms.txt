@@ -50,6 +50,9 @@ SecretScan does not upload Photos or extracted OCR text to SecretScan servers. F
   - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/skryt-lichnye-dannye-skrinshot-iphone.html)
 - [Remove location from iPhone photos](https://mityapolianskii.github.io/secretscan-app-store-pages/remove-location-from-iphone-photos.html): review or remove GPS metadata with built-in Photos controls; SecretScan does not scan location metadata.
 - [Find API keys in iPhone screenshots](https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html): developer-focused screenshot audit and remediation guidance.
+  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/encontrar-claves-api-capturas-iphone.html)
+  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/api-schluessel-iphone-screenshots-finden.html)
+  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-api-klyuchi-v-skrinshotah-iphone.html)
 - [Find recovery codes and seed phrases in photos](https://mityapolianskii.github.io/secretscan-app-store-pages/find-recovery-codes-in-photos.html): account-recovery and wallet-material cleanup guidance.
   - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/codigos-recuperacion-frase-semilla-fotos-iphone.html)
   - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/wiederherstellungscodes-seed-phrase-iphone-fotos.html)

@@ -3,6 +3,9 @@ https://mityapolianskii.github.io/secretscan-app-store-pages/es/
 https://mityapolianskii.github.io/secretscan-app-store-pages/de/
 https://mityapolianskii.github.io/secretscan-app-store-pages/ru/
 https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html
+https://mityapolianskii.github.io/secretscan-app-store-pages/es/encontrar-claves-api-capturas-iphone.html
+https://mityapolianskii.github.io/secretscan-app-store-pages/de/api-schluessel-iphone-screenshots-finden.html
+https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-api-klyuchi-v-skrinshotah-iphone.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/find-recovery-codes-in-photos.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/es/codigos-recuperacion-frase-semilla-fotos-iphone.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/de/wiederherstellungscodes-seed-phrase-iphone-fotos.html
