@@ -11,6 +11,7 @@ https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-
 https://mityapolianskii.github.io/secretscan-app-store-pages/iphone-sensitive-screenshot-checklist.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/redact-sensitive-information-iphone-screenshot.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/remove-location-from-iphone-photos.html
+https://mityapolianskii.github.io/secretscan-app-store-pages/check-which-apps-access-iphone-photos.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/es/guias-privacidad-fotos-iphone.html
