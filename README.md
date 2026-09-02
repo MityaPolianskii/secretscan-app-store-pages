@@ -41,6 +41,9 @@ SecretScan helps you find passwords, recovery codes, API keys, payment details, 
   - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/passwoerter-in-iphone-fotos-finden.html)
   - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-paroli-v-foto-iphone.html)
 - [Find credit card screenshots and photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-credit-card-photos-iphone.html)
+  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/encontrar-fotos-tarjeta-bancaria-iphone.html)
+  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/kreditkarten-fotos-iphone-finden.html)
+  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-foto-bankovskoy-karty-iphone.html)
 - [Find passport and ID photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-passport-id-photos-iphone.html)
 - [Redact private information in an iPhone screenshot](https://mityapolianskii.github.io/secretscan-app-store-pages/redact-sensitive-information-iphone-screenshot.html)
   - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/ocultar-datos-captura-iphone.html)
@@ -62,6 +65,7 @@ Static pages for App Store Connect URLs:
 - `es/ocultar-datos-captura-iphone.html`, `de/iphone-screenshot-private-daten-abdecken.html`, and `ru/skryt-lichnye-dannye-skrinshot-iphone.html`: localized screenshot-redaction guides with reciprocal `hreflang`, localized Apple sources, and distinct App Store campaigns.
 - `es/codigos-recuperacion-frase-semilla-fotos-iphone.html`, `de/wiederherstellungscodes-seed-phrase-iphone-fotos.html`, and `ru/kody-vosstanovleniya-seed-frazy-foto-iphone.html`: localized recovery-code and seed-phrase guides with reciprocal `hreflang`, localized primary sources, and distinct App Store campaigns.
 - `es/encontrar-claves-api-capturas-iphone.html`, `de/api-schluessel-iphone-screenshots-finden.html`, and `ru/nayti-api-klyuchi-v-skrinshotah-iphone.html`: localized API-key and token screenshot guides with reciprocal `hreflang`, localized primary sources, and distinct App Store campaigns.
+- `es/encontrar-fotos-tarjeta-bancaria-iphone.html`, `de/kreditkarten-fotos-iphone-finden.html`, and `ru/nayti-foto-bankovskoy-karty-iphone.html`: localized payment-card photo guides with reciprocal `hreflang`, regional financial-safety sources, and distinct App Store campaigns.
 - `privacy.html`: Privacy Policy URL.
 - `support.html`: Support URL.
 - `scan-api-keys-in-screenshots.html`: developer-intent acquisition page.
