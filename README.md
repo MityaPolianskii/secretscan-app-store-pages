@@ -30,6 +30,9 @@ SecretScan helps you find passwords, recovery codes, API keys, payment details, 
 - [Check which apps can access your iPhone photos](https://mityapolianskii.github.io/secretscan-app-store-pages/check-which-apps-access-iphone-photos.html)
 - [Find API keys and tokens in iPhone screenshots](https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html)
 - [Find recovery codes and seed phrases in photos](https://mityapolianskii.github.io/secretscan-app-store-pages/find-recovery-codes-in-photos.html)
+  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/codigos-recuperacion-frase-semilla-fotos-iphone.html)
+  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/wiederherstellungscodes-seed-phrase-iphone-fotos.html)
+  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/kody-vosstanovleniya-seed-frazy-foto-iphone.html)
 - [Find password screenshots and photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-passwords-in-iphone-photos.html)
   - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/encontrar-contrasenas-fotos-iphone.html)
   - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/passwoerter-in-iphone-fotos-finden.html)
@@ -54,6 +57,7 @@ Static pages for App Store Connect URLs:
 - `es/buscar-capturas-texto-iphone.html`, `de/iphone-screenshots-nach-text-suchen.html`, and `ru/poisk-skrinshotov-po-tekstu-iphone.html`: localized screenshot-text search guides with reciprocal `hreflang`, localized Apple sources, and distinct App Store campaigns.
 - `es/eliminar-capturas-sensibles-iphone.html`, `de/sensible-screenshots-iphone-finden-loeschen.html`, and `ru/nayti-udalit-chuvstvitelnye-skrinshoty-iphone.html`: localized sensitive-screenshot checklists with reciprocal `hreflang`, localized primary sources, and distinct App Store campaigns.
 - `es/ocultar-datos-captura-iphone.html`, `de/iphone-screenshot-private-daten-abdecken.html`, and `ru/skryt-lichnye-dannye-skrinshot-iphone.html`: localized screenshot-redaction guides with reciprocal `hreflang`, localized Apple sources, and distinct App Store campaigns.
+- `es/codigos-recuperacion-frase-semilla-fotos-iphone.html`, `de/wiederherstellungscodes-seed-phrase-iphone-fotos.html`, and `ru/kody-vosstanovleniya-seed-frazy-foto-iphone.html`: localized recovery-code and seed-phrase guides with reciprocal `hreflang`, localized primary sources, and distinct App Store campaigns.
 - `privacy.html`: Privacy Policy URL.
 - `support.html`: Support URL.
 - `scan-api-keys-in-screenshots.html`: developer-intent acquisition page.
