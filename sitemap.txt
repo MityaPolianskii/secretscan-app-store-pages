@@ -13,6 +13,9 @@ https://mityapolianskii.github.io/secretscan-app-store-pages/redact-sensitive-in
 https://mityapolianskii.github.io/secretscan-app-store-pages/remove-location-from-iphone-photos.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html
+https://mityapolianskii.github.io/secretscan-app-store-pages/es/guias-privacidad-fotos-iphone.html
+https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-foto-datenschutz.html
+https://mityapolianskii.github.io/secretscan-app-store-pages/ru/bezopasnost-foto-iphone.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/press.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/mac-private-file-scan.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/privacy.html

@@ -46,7 +46,42 @@
   <url><loc>https://mityapolianskii.github.io/secretscan-app-store-pages/redact-sensitive-information-iphone-screenshot.html</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://mityapolianskii.github.io/secretscan-app-store-pages/remove-location-from-iphone-photos.html</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html</loc><lastmod>2026-09-02</lastmod></url>
-  <url><loc>https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html</loc><lastmod>2026-09-02</lastmod></url>
+  <url>
+    <loc>https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/guias-privacidad-fotos-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-foto-datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/bezopasnost-foto-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://mityapolianskii.github.io/secretscan-app-store-pages/es/guias-privacidad-fotos-iphone.html</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/guias-privacidad-fotos-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-foto-datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/bezopasnost-foto-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-foto-datenschutz.html</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/guias-privacidad-fotos-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-foto-datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/bezopasnost-foto-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://mityapolianskii.github.io/secretscan-app-store-pages/ru/bezopasnost-foto-iphone.html</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/guias-privacidad-fotos-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-foto-datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/bezopasnost-foto-iphone.html"/>
+  </url>
   <url><loc>https://mityapolianskii.github.io/secretscan-app-store-pages/press.html</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>https://mityapolianskii.github.io/secretscan-app-store-pages/mac-private-file-scan.html</loc><lastmod>2026-09-01</lastmod></url>
   <url><loc>https://mityapolianskii.github.io/secretscan-app-store-pages/privacy.html</loc><lastmod>2026-08-26</lastmod></url>
