@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://mityapolianskii.github.io/secretscan-app-store-pages/sitemap.xml
+Sitemap: https://mityapolianskii.github.io/secretscan-app-store-pages/sitemap.txt

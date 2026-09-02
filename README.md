@@ -44,7 +44,7 @@ Static pages for App Store Connect URLs:
 - `mac-private-file-scan.html`: Mac demand-validation page.
 - `guides.html`: crawlable guide hub with a nine-item structured index and a distinct App Store campaign.
 - `press.html`: verified product facts, privacy boundaries, story angles, contact details, and downloadable public artwork.
-- `robots.txt` and `sitemap.xml`: crawl discovery.
+- `robots.txt`, `sitemap.xml`, and `sitemap.txt`: crawl discovery, with a plain-text sitemap fallback for crawlers that fail to process the XML sitemap.
 - `feed.xml`: Atom feed for guide and tool discovery without analytics or user tracking.
 - `llms.txt`: concise product boundaries and canonical sources for AI-assisted discovery.
 - `53e8f1b23307486a8c13ea79ed325d80.txt`: IndexNow ownership key for URLs under this GitHub Pages path.
