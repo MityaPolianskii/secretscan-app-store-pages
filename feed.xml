@@ -6,9 +6,31 @@
   <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/" rel="alternate" type="text/html"/>
   <id>https://mityapolianskii.github.io/secretscan-app-store-pages/</id>
-  <updated>2026-09-02T08:20:00+04:00</updated>
+  <updated>2026-09-02T08:35:00+04:00</updated>
   <author><name>Dmytro Polianskyi</name></author>
   <icon>https://mityapolianskii.github.io/secretscan-app-store-pages/assets/app-icon.png</icon>
+
+  <entry xml:lang="es">
+    <title>Cómo buscar capturas por texto en el iPhone</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/buscar-capturas-texto-iphone.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/es/buscar-capturas-texto-iphone.html</id>
+    <updated>2026-09-02T08:35:00+04:00</updated>
+    <summary>Encuentra capturas mediante texto visible con Fotos o Spotlight y utiliza una revisión privada cuando no recuerdes las palabras exactas.</summary>
+  </entry>
+  <entry xml:lang="de">
+    <title>iPhone-Screenshots nach Text durchsuchen</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-screenshots-nach-text-suchen.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-screenshots-nach-text-suchen.html</id>
+    <updated>2026-09-02T08:35:00+04:00</updated>
+    <summary>Finde Screenshots anhand sichtbarer Texte mit Fotos oder Spotlight und nutze eine private Prüfung, wenn du die genauen Wörter nicht kennst.</summary>
+  </entry>
+  <entry xml:lang="ru">
+    <title>Как найти скриншот по тексту на iPhone</title>
+    <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/poisk-skrinshotov-po-tekstu-iphone.html"/>
+    <id>https://mityapolianskii.github.io/secretscan-app-store-pages/ru/poisk-skrinshotov-po-tekstu-iphone.html</id>
+    <updated>2026-09-02T08:35:00+04:00</updated>
+    <summary>Найдите скриншоты по видимому тексту через Фото или Spotlight и используйте локальную проверку, если точные слова неизвестны.</summary>
+  </entry>
 
   <entry>
     <title>Which apps can access your iPhone photos?</title>
@@ -114,7 +136,7 @@
     <title>How to search screenshots by text on iPhone</title>
     <link href="https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html"/>
     <id>https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html</id>
-    <updated>2026-09-02T01:55:00+04:00</updated>
+    <updated>2026-09-02T08:35:00+04:00</updated>
     <summary>Use built-in Photos or Spotlight search when you remember a word, email address, phone number, or other visible text.</summary>
   </entry>
   <entry>

@@ -28,6 +28,9 @@ SecretScan does not upload Photos or extracted OCR text to SecretScan servers. F
 - [Cómo encontrar contraseñas en fotos del iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/es/encontrar-contrasenas-fotos-iphone.html)
 - [Passwörter in iPhone-Fotos und Screenshots finden](https://mityapolianskii.github.io/secretscan-app-store-pages/de/passwoerter-in-iphone-fotos-finden.html)
 - [Как найти пароли на фото и скриншотах iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-paroli-v-foto-iphone.html)
+- [Cómo buscar capturas por texto en el iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/es/buscar-capturas-texto-iphone.html)
+- [iPhone-Screenshots nach Text durchsuchen](https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-screenshots-nach-text-suchen.html)
+- [Как найти скриншот по тексту на iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/poisk-skrinshotov-po-tekstu-iphone.html)
 
 ## Practical guides
 
