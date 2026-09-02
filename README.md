@@ -16,6 +16,10 @@ SecretScan helps you find passwords, recovery codes, API keys, payment details, 
 
 - [All iPhone photo privacy guides](https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html)
 - [How to find and remove sensitive screenshots on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/iphone-sensitive-screenshot-checklist.html)
+- [Shared a sensitive screenshot? Check what to do next](https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html)
+  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/revisar-captura-sensible.html)
+  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/geteilten-screenshot-pruefen.html)
+  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/proverit-otpravlennyy-skrinshot.html)
 - [How to search screenshots by text on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html)
   - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/buscar-capturas-texto-iphone.html)
   - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-screenshots-nach-text-suchen.html)
@@ -53,7 +57,7 @@ Static pages for App Store Connect URLs:
 - `redact-sensitive-information-iphone-screenshot.html`: built-in Markup redaction guide and reversible-edit caveat.
 - `remove-location-from-iphone-photos.html`: built-in Photos location-metadata guide and product-boundary note.
 - `check-which-apps-access-iphone-photos.html`: built-in Photos permission audit, App Privacy Report guidance, and device-access boundary note.
-- `screenshot-exposure-check.html` and `assets/exposure-check.js`: local-only screenshot exposure triage with no sensitive input, upload, persistence, analytics, or post-load network request.
+- `screenshot-exposure-check.html`, `es/revisar-captura-sensible.html`, `de/geteilten-screenshot-pruefen.html`, `ru/proverit-otpravlennyy-skrinshot.html`, and `assets/exposure-check.js`: localized, local-only screenshot exposure triage with reciprocal `hreflang`, separate App Store campaigns, and no sensitive input, upload, persistence, analytics, or post-load network request.
 - `mac-private-file-scan.html`: Mac demand-validation page.
 - `guides.html`: crawlable guide hub with an eleven-item structured index and a distinct App Store campaign.
 - `press.html`: verified product facts, privacy boundaries, story angles, contact details, and downloadable public artwork.

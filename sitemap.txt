@@ -22,6 +22,9 @@ https://mityapolianskii.github.io/secretscan-app-store-pages/es/apps-acceso-foto
 https://mityapolianskii.github.io/secretscan-app-store-pages/de/apps-zugriff-iphone-fotos.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/ru/dostup-prilozheniy-k-foto-iphone.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html
+https://mityapolianskii.github.io/secretscan-app-store-pages/es/revisar-captura-sensible.html
+https://mityapolianskii.github.io/secretscan-app-store-pages/de/geteilten-screenshot-pruefen.html
+https://mityapolianskii.github.io/secretscan-app-store-pages/ru/proverit-otpravlennyy-skrinshot.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/es/guias-privacidad-fotos-iphone.html
 https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-foto-datenschutz.html

@@ -151,7 +151,22 @@
     <xhtml:link rel="alternate" hreflang="de-DE" href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/apps-zugriff-iphone-fotos.html"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/dostup-prilozheniy-k-foto-iphone.html"/>
   </url>
-  <url><loc>https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html</loc><lastmod>2026-09-02</lastmod></url>
+  <url>
+    <loc>https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html</loc><lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html"/><xhtml:link rel="alternate" hreflang="en" href="https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html"/><xhtml:link rel="alternate" hreflang="es-ES" href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/revisar-captura-sensible.html"/><xhtml:link rel="alternate" hreflang="de-DE" href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/geteilten-screenshot-pruefen.html"/><xhtml:link rel="alternate" hreflang="ru-RU" href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/proverit-otpravlennyy-skrinshot.html"/>
+  </url>
+  <url>
+    <loc>https://mityapolianskii.github.io/secretscan-app-store-pages/es/revisar-captura-sensible.html</loc><lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html"/><xhtml:link rel="alternate" hreflang="en" href="https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html"/><xhtml:link rel="alternate" hreflang="es-ES" href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/revisar-captura-sensible.html"/><xhtml:link rel="alternate" hreflang="de-DE" href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/geteilten-screenshot-pruefen.html"/><xhtml:link rel="alternate" hreflang="ru-RU" href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/proverit-otpravlennyy-skrinshot.html"/>
+  </url>
+  <url>
+    <loc>https://mityapolianskii.github.io/secretscan-app-store-pages/de/geteilten-screenshot-pruefen.html</loc><lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html"/><xhtml:link rel="alternate" hreflang="en" href="https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html"/><xhtml:link rel="alternate" hreflang="es-ES" href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/revisar-captura-sensible.html"/><xhtml:link rel="alternate" hreflang="de-DE" href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/geteilten-screenshot-pruefen.html"/><xhtml:link rel="alternate" hreflang="ru-RU" href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/proverit-otpravlennyy-skrinshot.html"/>
+  </url>
+  <url>
+    <loc>https://mityapolianskii.github.io/secretscan-app-store-pages/ru/proverit-otpravlennyy-skrinshot.html</loc><lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html"/><xhtml:link rel="alternate" hreflang="en" href="https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html"/><xhtml:link rel="alternate" hreflang="es-ES" href="https://mityapolianskii.github.io/secretscan-app-store-pages/es/revisar-captura-sensible.html"/><xhtml:link rel="alternate" hreflang="de-DE" href="https://mityapolianskii.github.io/secretscan-app-store-pages/de/geteilten-screenshot-pruefen.html"/><xhtml:link rel="alternate" hreflang="ru-RU" href="https://mityapolianskii.github.io/secretscan-app-store-pages/ru/proverit-otpravlennyy-skrinshot.html"/>
+  </url>
   <url>
     <loc>https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html</loc>
     <lastmod>2026-09-02</lastmod>
