@@ -2,6 +2,8 @@
 
 SecretScan helps you find passwords, recovery codes, API keys, payment details, IDs, and other sensitive text that was left behind in screenshots and photos.
 
+![SecretScan finds sensitive text hiding in iPhone screenshots and photos](assets/og-card.png)
+
 - OCR and detection run on the iPhone or iPad.
 - Photos and extracted text are not uploaded to SecretScan servers.
 - Review likely findings behind device authentication.
@@ -41,9 +43,10 @@ Static pages for App Store Connect URLs:
 - `search-screenshots-by-text-iphone.html`: built-in Photos and Spotlight text-search guide.
 - `redact-sensitive-information-iphone-screenshot.html`: built-in Markup redaction guide and reversible-edit caveat.
 - `remove-location-from-iphone-photos.html`: built-in Photos location-metadata guide and product-boundary note.
+- `check-which-apps-access-iphone-photos.html`: built-in Photos permission audit, App Privacy Report guidance, and device-access boundary note.
 - `screenshot-exposure-check.html` and `assets/exposure-check.js`: local-only screenshot exposure triage with no sensitive input, upload, persistence, analytics, or post-load network request.
 - `mac-private-file-scan.html`: Mac demand-validation page.
-- `guides.html`: crawlable guide hub with a nine-item structured index and a distinct App Store campaign.
+- `guides.html`: crawlable guide hub with an eleven-item structured index and a distinct App Store campaign.
 - `press.html`: verified product facts, privacy boundaries, story angles, contact details, and downloadable public artwork.
 - `robots.txt`, `sitemap.xml`, and `sitemap.txt`: crawl discovery, with a plain-text sitemap fallback for crawlers that fail to process the XML sitemap.
 - `feed.xml`: Atom feed for guide and tool discovery without analytics or user tracking.
