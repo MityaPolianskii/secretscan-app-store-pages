@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1200, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>SecretScan exposure check social preview</title>
+    <link rel="icon" href="app-icon.png" type="image/png">
+    <style>
+      * { box-sizing: border-box; }
+      html, body { width: 1200px; height: 630px; margin: 0; overflow: hidden; }
+      body {
+        color: #f8fafc;
+        background:
+          radial-gradient(circle at 81% 13%, rgba(20,184,166,.29), transparent 29%),
+          radial-gradient(circle at 12% 96%, rgba(15,118,110,.3), transparent 32%),
+          linear-gradient(140deg, #071019 0%, #0b1320 55%, #0b2524 100%);
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      }
+      .card { position: relative; display: grid; grid-template-columns: 1.35fr .7fr; align-items: center; width: 100%; height: 100%; padding: 58px 64px; gap: 52px; }
+      .card::before { content: ""; position: absolute; inset: 22px; border: 1px solid rgba(153,246,228,.18); border-radius: 28px; }
+      .copy, .steps { position: relative; z-index: 1; }
+      .brand { display: flex; align-items: center; gap: 16px; margin-bottom: 30px; }
+      .brand img { width: 68px; height: 68px; border-radius: 16px; box-shadow: 0 16px 35px rgba(0,0,0,.34); }
+      .brand strong { display: block; font-size: 29px; letter-spacing: -.02em; }
+      .brand span { display: block; margin-top: 3px; color: #99f6e4; font-size: 15px; font-weight: 800; }
+      h1 { max-width: 700px; margin: 0; font-size: 62px; line-height: 1; letter-spacing: -.05em; }
+      .lead { max-width: 690px; margin: 23px 0 27px; color: #cbd5e1; font-size: 24px; line-height: 1.35; }
+      .proof { display: flex; flex-wrap: wrap; gap: 10px; }
+      .proof span { padding: 9px 13px; border: 1px solid rgba(153,246,228,.28); border-radius: 999px; background: rgba(15,118,110,.2); color: #ccfbf1; font-size: 14px; font-weight: 800; }
+      .steps { display: grid; gap: 15px; }
+      .step { display: grid; grid-template-columns: 42px 1fr; align-items: center; gap: 14px; min-height: 102px; padding: 17px 20px; border: 1px solid rgba(255,255,255,.13); border-radius: 18px; background: rgba(17,28,44,.92); box-shadow: 0 24px 55px rgba(0,0,0,.25); }
+      .step:nth-child(2) { transform: translateX(28px); background: rgba(233,245,242,.96); color: #163c36; }
+      .number { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; background: #0f766e; color: #fff; font-size: 18px; font-weight: 900; }
+      .step:nth-child(2) .number { background: #0b4f49; }
+      .step strong { display: block; font-size: 18px; line-height: 1.2; }
+      .step span { display: block; margin-top: 5px; color: #94a3b8; font-size: 14px; font-weight: 650; }
+      .step:nth-child(2) span { color: #46736c; }
+    </style>
+      <link rel="canonical" href="https://secretscan-analytics.web.app/assets/exposure-check-card-source.html">
+  </head>
+  <body>
+    <main class="card">
+      <section class="copy">
+        <div class="brand"><img src="app-icon.png" alt=""><div><strong>SecretScan</strong><span>Free private browser check</span></div></div>
+        <h1>Shared a screenshot with a password?</h1>
+        <p class="lead">Get a safer action order in six questions—without entering a secret or uploading a photo.</p>
+        <div class="proof"><span>No upload</span><span>No secret input</span><span>No saved answers</span></div>
+      </section>
+      <section class="steps" aria-hidden="true">
+        <div class="step"><span class="number">1</span><div><strong>Revoke access first</strong><span>Deleting the image is not enough.</span></div></div>
+        <div class="step"><span class="number">2</span><div><strong>Redact private details</strong><span>Inspect the entire sharing copy.</span></div></div>
+        <div class="step"><span class="number">3</span><div><strong>Remove old copies</strong><span>Review Photos and permissions.</span></div></div>
+      </section>
+    </main>
+  </body>
+</html>

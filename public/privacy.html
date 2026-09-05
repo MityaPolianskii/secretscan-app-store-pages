@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SecretScan Privacy Policy</title>
+    <link rel="alternate" type="application/atom+xml" title="SecretScan privacy guides" href="https://secretscan-analytics.web.app/feed.xml">
+    <meta name="description" content="Privacy policy for SecretScan, an on-device iPhone app for finding sensitive information in Photos.">
+    <link rel="stylesheet" href="styles.css">
+      <link rel="canonical" href="https://secretscan-analytics.web.app/privacy.html">
+  </head>
+  <body>
+    <main class="page">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html"><span class="mark">S</span><span>SecretScan</span></a>
+        <div class="links">
+          <a href="guides.html">Guides</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="support.html">Support</a>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <p class="eyebrow">Privacy Policy</p>
+        <h1>SecretScan Privacy Policy</h1>
+        <p class="lead">SecretScan is designed as a local privacy utility. It helps you find risky screenshots or text-heavy photos, review them, and clean them up without sending your private images or extracted text to SecretScan servers.</p>
+        <p class="meta">Last updated: August 17, 2026</p>
+      </section>
+
+      <section class="section">
+        <h2>App Developer</h2>
+        <p>SecretScan is built and operated by P/E Dmytro Polianskyi, a private person entrepreneur.</p>
+      </section>
+
+      <section class="section">
+        <h2>Short Version</h2>
+        <ul>
+          <li>SecretScan does not upload your Photos.</li>
+          <li>SecretScan does not upload OCR text.</li>
+          <li>SecretScan does not require a SecretScan account.</li>
+          <li>SecretScan uses Firebase Analytics for a minimal product-validation funnel and does not track users across apps or websites.</li>
+          <li>Analytics never includes Photos data, OCR text, finding details, or Photos identifiers. Firebase assigns a pseudonymous app-instance identifier.</li>
+          <li>OCR runs on your iPhone using Apple's on-device Vision framework.</li>
+          <li>Findings are stored locally in a locked vault.</li>
+          <li>iCloud originals may be requested through Apple's Photos framework when needed for better image quality. SecretScan does not upload anything to iCloud.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Product Validation Metrics</h2>
+        <p>To determine whether the product solves a real problem, release builds may send one-time milestones for Photos permission, starting and completing a scan, whether a scan produced at least one high- or critical-risk finding, opening such a finding, completing a remediation, seeing a paywall, and completing a verified purchase.</p>
+        <p>The custom events contain only the event name, a coarse paywall or remediation reason when applicable, and Boolean context indicating whether an actionable finding was detected, opened, or remediated earlier. They do not contain Photos or OCR data, finding categories or counts, Photos identifiers, or account identifiers.</p>
+        <p>Firebase Analytics automatically assigns a pseudonymous app-instance identifier and may process app lifecycle and purchase events, app and device information, a masked IP address used to derive coarse location, and transport diagnostics. SecretScan disables IDFA and IDFV collection, denies advertising storage and personalization, and does not set a user ID. The data is used only to measure and maintain the product, not for advertising, profiling, or cross-app tracking. Firebase Analytics is operated by Google under its applicable terms and privacy documentation.</p>
+      </section>
+
+      <section class="section">
+        <h2>Information The App Reads</h2>
+        <p>When you start a scan, SecretScan asks the Photos library for images matching your settings. This may include screenshots or text-heavy photos, the date range you selected, and original-quality images when the iCloud originals setting is enabled.</p>
+        <p>The app uses those images to run on-device OCR and detect risky text patterns such as passwords, recovery phrases, API keys, recovery codes, payment cards, IDs, addresses, medical information, and bank details.</p>
+      </section>
+
+      <section class="section">
+        <h2>Information The App Stores</h2>
+        <p>SecretScan stores findings in a local locked vault on your device. A finding may include:</p>
+        <ul>
+          <li>the Photos local identifier for the image.</li>
+          <li>the image creation date and pixel size.</li>
+          <li>the detected category and risk level.</li>
+          <li>the review status you choose.</li>
+          <li>redacted evidence snippets that help explain why an item was flagged.</li>
+        </ul>
+        <p>The Photos local identifier is a pointer to an item in your Photos library. It is private metadata, so SecretScan stores it in protected local storage.</p>
+      </section>
+
+      <section class="section">
+        <h2>Information The App Does Not Store</h2>
+        <p>SecretScan does not intentionally persist:</p>
+        <ul>
+          <li>original images.</li>
+          <li>thumbnails.</li>
+          <li>full OCR text.</li>
+          <li>unredacted secrets.</li>
+          <li>cloud copies of findings.</li>
+          <li>user accounts.</li>
+          <li>analytics or tracking identifiers.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>iCloud Photos</h2>
+        <p>If iCloud originals are enabled, SecretScan may ask Apple's Photos framework for a full-resolution image. This can cause Photos to download the original from iCloud to your device.</p>
+        <p>SecretScan does not upload your image or extracted text. iCloud transfer is handled by Apple's Photos system.</p>
+      </section>
+
+      <section class="section">
+        <h2>Redaction And Deletion</h2>
+        <p>Saving a redacted copy creates a new item in Photos. It does not delete the original.</p>
+        <p>Deleting the original uses Apple's Photos deletion flow. Deleted items normally move to Recently Deleted, depending on Photos behavior and system confirmation.</p>
+      </section>
+
+      <section class="section">
+        <h2>Purchases</h2>
+        <p>Lifetime Pro uses Apple's StoreKit. Purchase and entitlement handling is done through Apple systems. SecretScan does not require an account for Pro.</p>
+      </section>
+
+      <section class="section">
+        <h2>Children's Privacy</h2>
+        <p>SecretScan is not directed to children. The app does not knowingly collect personal information from children.</p>
+      </section>
+
+      <section class="section">
+        <h2>Changes To This Policy</h2>
+        <p>This policy may be updated when SecretScan's behavior changes or when clarification is needed. The updated date at the top of this page shows when the latest version was published.</p>
+      </section>
+
+      <section class="section">
+        <h2>Contact</h2>
+        <p>For support or privacy questions, contact <a href="mailto:liweba@gmail.com">liweba@gmail.com</a>.</p>
+      </section>
+    </main>
+  </body>
+</html>

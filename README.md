@@ -1,3 +1,11 @@
+# Hosting and deployment
+
+SecretScan's canonical website is https://secretscan-analytics.web.app/ on Firebase Hosting, project and site `secretscan-analytics`.
+
+Edit `public/`. Preview with `python3 -m http.server 4173 --directory public`. Deploy only Hosting with `firebase deploy --only hosting --project secretscan-analytics`. Never deploy the repository root as the Firebase public directory.
+
+The HTML pages at the repository root are generated compatibility redirects for old GitHub Pages links. They are not the website source. Regenerate them with `python3 scripts/build_legacy_redirects.py` after adding or changing page paths. They preserve query strings and fragments in browsers with JavaScript, and include a meta-refresh fallback and a canonical Firebase URL. GitHub Pages cannot provide server-side 301 redirects for these paths. Keep these redirects available for old app versions, search results, and shared links.
+
 # SecretScan — private screenshot and photo security for iPhone
 
 SecretScan helps you find passwords, recovery codes, API keys, payment details, IDs, and other sensitive text that was left behind in screenshots and photos.
@@ -10,45 +18,45 @@ SecretScan helps you find passwords, recovery codes, API keys, payment details, 
 - Save a redacted copy or delete the original after review.
 - Start with a free screenshot scan; Lifetime Pro is a one-time purchase.
 
-[Download SecretScan on the App Store](https://apps.apple.com/app/apple-store/id6763880476?pt=120611987&ct=github_repo_sep2&mt=8) · [Visit the website](https://mityapolianskii.github.io/secretscan-app-store-pages/) · [Open the press kit](https://mityapolianskii.github.io/secretscan-app-store-pages/press.html) · [Follow the guide feed](https://mityapolianskii.github.io/secretscan-app-store-pages/feed.xml) · [Read the privacy policy](https://mityapolianskii.github.io/secretscan-app-store-pages/privacy.html)
+[Download SecretScan on the App Store](https://apps.apple.com/app/apple-store/id6763880476?pt=120611987&ct=github_repo_sep2&mt=8) · [Visit the website](https://secretscan-analytics.web.app/) · [Open the press kit](https://secretscan-analytics.web.app/press.html) · [Follow the guide feed](https://secretscan-analytics.web.app/feed.xml) · [Read the privacy policy](https://secretscan-analytics.web.app/privacy.html)
 
 ## Practical privacy guides
 
-- [All iPhone photo privacy guides](https://mityapolianskii.github.io/secretscan-app-store-pages/guides.html)
-- [How to find and remove sensitive screenshots on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/iphone-sensitive-screenshot-checklist.html)
-  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/eliminar-capturas-sensibles-iphone.html)
-  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/sensible-screenshots-iphone-finden-loeschen.html)
-  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-udalit-chuvstvitelnye-skrinshoty-iphone.html)
-- [Shared a sensitive screenshot? Check what to do next](https://mityapolianskii.github.io/secretscan-app-store-pages/screenshot-exposure-check.html)
-  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/revisar-captura-sensible.html)
-  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/geteilten-screenshot-pruefen.html)
-  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/proverit-otpravlennyy-skrinshot.html)
-- [How to search screenshots by text on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/search-screenshots-by-text-iphone.html)
-  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/buscar-capturas-texto-iphone.html)
-  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-screenshots-nach-text-suchen.html)
-  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/poisk-skrinshotov-po-tekstu-iphone.html)
-- [Check which apps can access your iPhone photos](https://mityapolianskii.github.io/secretscan-app-store-pages/check-which-apps-access-iphone-photos.html)
-- [Find API keys and tokens in iPhone screenshots](https://mityapolianskii.github.io/secretscan-app-store-pages/scan-api-keys-in-screenshots.html)
-  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/encontrar-claves-api-capturas-iphone.html)
-  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/api-schluessel-iphone-screenshots-finden.html)
-  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-api-klyuchi-v-skrinshotah-iphone.html)
-- [Find recovery codes and seed phrases in photos](https://mityapolianskii.github.io/secretscan-app-store-pages/find-recovery-codes-in-photos.html)
-  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/codigos-recuperacion-frase-semilla-fotos-iphone.html)
-  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/wiederherstellungscodes-seed-phrase-iphone-fotos.html)
-  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/kody-vosstanovleniya-seed-frazy-foto-iphone.html)
-- [Find password screenshots and photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-passwords-in-iphone-photos.html)
-  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/encontrar-contrasenas-fotos-iphone.html)
-  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/passwoerter-in-iphone-fotos-finden.html)
-  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-paroli-v-foto-iphone.html)
-- [Find credit card screenshots and photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-credit-card-photos-iphone.html)
-  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/encontrar-fotos-tarjeta-bancaria-iphone.html)
-  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/kreditkarten-fotos-iphone-finden.html)
-  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/nayti-foto-bankovskoy-karty-iphone.html)
-- [Find passport and ID photos on iPhone](https://mityapolianskii.github.io/secretscan-app-store-pages/find-passport-id-photos-iphone.html)
-- [Redact private information in an iPhone screenshot](https://mityapolianskii.github.io/secretscan-app-store-pages/redact-sensitive-information-iphone-screenshot.html)
-  - [Español](https://mityapolianskii.github.io/secretscan-app-store-pages/es/ocultar-datos-captura-iphone.html)
-  - [Deutsch](https://mityapolianskii.github.io/secretscan-app-store-pages/de/iphone-screenshot-private-daten-abdecken.html)
-  - [Русский](https://mityapolianskii.github.io/secretscan-app-store-pages/ru/skryt-lichnye-dannye-skrinshot-iphone.html)
+- [All iPhone photo privacy guides](https://secretscan-analytics.web.app/guides.html)
+- [How to find and remove sensitive screenshots on iPhone](https://secretscan-analytics.web.app/iphone-sensitive-screenshot-checklist.html)
+  - [Español](https://secretscan-analytics.web.app/es/eliminar-capturas-sensibles-iphone.html)
+  - [Deutsch](https://secretscan-analytics.web.app/de/sensible-screenshots-iphone-finden-loeschen.html)
+  - [Русский](https://secretscan-analytics.web.app/ru/nayti-udalit-chuvstvitelnye-skrinshoty-iphone.html)
+- [Shared a sensitive screenshot? Check what to do next](https://secretscan-analytics.web.app/screenshot-exposure-check.html)
+  - [Español](https://secretscan-analytics.web.app/es/revisar-captura-sensible.html)
+  - [Deutsch](https://secretscan-analytics.web.app/de/geteilten-screenshot-pruefen.html)
+  - [Русский](https://secretscan-analytics.web.app/ru/proverit-otpravlennyy-skrinshot.html)
+- [How to search screenshots by text on iPhone](https://secretscan-analytics.web.app/search-screenshots-by-text-iphone.html)
+  - [Español](https://secretscan-analytics.web.app/es/buscar-capturas-texto-iphone.html)
+  - [Deutsch](https://secretscan-analytics.web.app/de/iphone-screenshots-nach-text-suchen.html)
+  - [Русский](https://secretscan-analytics.web.app/ru/poisk-skrinshotov-po-tekstu-iphone.html)
+- [Check which apps can access your iPhone photos](https://secretscan-analytics.web.app/check-which-apps-access-iphone-photos.html)
+- [Find API keys and tokens in iPhone screenshots](https://secretscan-analytics.web.app/scan-api-keys-in-screenshots.html)
+  - [Español](https://secretscan-analytics.web.app/es/encontrar-claves-api-capturas-iphone.html)
+  - [Deutsch](https://secretscan-analytics.web.app/de/api-schluessel-iphone-screenshots-finden.html)
+  - [Русский](https://secretscan-analytics.web.app/ru/nayti-api-klyuchi-v-skrinshotah-iphone.html)
+- [Find recovery codes and seed phrases in photos](https://secretscan-analytics.web.app/find-recovery-codes-in-photos.html)
+  - [Español](https://secretscan-analytics.web.app/es/codigos-recuperacion-frase-semilla-fotos-iphone.html)
+  - [Deutsch](https://secretscan-analytics.web.app/de/wiederherstellungscodes-seed-phrase-iphone-fotos.html)
+  - [Русский](https://secretscan-analytics.web.app/ru/kody-vosstanovleniya-seed-frazy-foto-iphone.html)
+- [Find password screenshots and photos on iPhone](https://secretscan-analytics.web.app/find-passwords-in-iphone-photos.html)
+  - [Español](https://secretscan-analytics.web.app/es/encontrar-contrasenas-fotos-iphone.html)
+  - [Deutsch](https://secretscan-analytics.web.app/de/passwoerter-in-iphone-fotos-finden.html)
+  - [Русский](https://secretscan-analytics.web.app/ru/nayti-paroli-v-foto-iphone.html)
+- [Find credit card screenshots and photos on iPhone](https://secretscan-analytics.web.app/find-credit-card-photos-iphone.html)
+  - [Español](https://secretscan-analytics.web.app/es/encontrar-fotos-tarjeta-bancaria-iphone.html)
+  - [Deutsch](https://secretscan-analytics.web.app/de/kreditkarten-fotos-iphone-finden.html)
+  - [Русский](https://secretscan-analytics.web.app/ru/nayti-foto-bankovskoy-karty-iphone.html)
+- [Find passport and ID photos on iPhone](https://secretscan-analytics.web.app/find-passport-id-photos-iphone.html)
+- [Redact private information in an iPhone screenshot](https://secretscan-analytics.web.app/redact-sensitive-information-iphone-screenshot.html)
+  - [Español](https://secretscan-analytics.web.app/es/ocultar-datos-captura-iphone.html)
+  - [Deutsch](https://secretscan-analytics.web.app/de/iphone-screenshot-private-daten-abdecken.html)
+  - [Русский](https://secretscan-analytics.web.app/ru/skryt-lichnye-dannye-skrinshot-iphone.html)
 
 SecretScan is a focused photo-privacy audit, not a cloud vault, antivirus, password manager, or guarantee that every sensitive image will be found. If a credential may have been exposed, rotate or revoke it; deleting its screenshot does not invalidate it.
 
