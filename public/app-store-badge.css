@@ -1,0 +1,11 @@
+/* Official Apple artwork: keep proportions and one-quarter-height clear space. */
+a.official-app-store-badge, a.official-app-store-badge:hover, a.official-app-store-badge:active {
+  display: inline-flex !important; align-items: center !important; justify-content: center !important;
+  box-sizing: content-box !important; width: fit-content !important; min-width: 0 !important; height: auto !important;
+  padding: 10px !important; margin: 0 !important; border: 0 !important; border-radius: 0 !important;
+  background: transparent !important; box-shadow: none !important; text-decoration: none !important;
+  transform: none !important; transition: none !important; line-height: 0 !important; flex-shrink: 0;
+}
+a.official-app-store-badge::before, a.official-app-store-badge::after { content: none !important; }
+a.official-app-store-badge img { display: block !important; width: auto !important; height: 40px !important; max-width: none !important; margin: 0 !important; padding: 0 !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; filter: none !important; transform: none !important; }
+a.official-app-store-badge:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
