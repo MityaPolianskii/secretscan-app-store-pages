@@ -11,6 +11,6 @@ a.official-app-store-badge img { display: block !important; width: auto !importa
 a.official-app-store-badge:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
 
 @media (max-width: 720px) {
-  .feature-grid, .split-hero { grid-template-columns: minmax(0, 1fr); }
-  .feature-grid > *, .split-hero > *, .article-hero { min-width: 0; overflow-wrap: anywhere; }
+  .feature-grid, .split-hero, .audience-grid { grid-template-columns: minmax(0, 1fr); }
+  .feature-grid > *, .split-hero > *, .article-hero, .audience-card, h1, h2 { min-width: 0; overflow-wrap: anywhere; hyphens: auto; }
 }
