@@ -9,3 +9,8 @@ a.official-app-store-badge, a.official-app-store-badge:hover, a.official-app-sto
 a.official-app-store-badge::before, a.official-app-store-badge::after { content: none !important; }
 a.official-app-store-badge img { display: block !important; width: auto !important; height: 40px !important; max-width: none !important; margin: 0 !important; padding: 0 !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; filter: none !important; transform: none !important; }
 a.official-app-store-badge:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+
+@media (max-width: 720px) {
+  .feature-grid, .split-hero { grid-template-columns: minmax(0, 1fr); }
+  .feature-grid > *, .split-hero > *, .article-hero { min-width: 0; overflow-wrap: anywhere; }
+}
