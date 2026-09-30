@@ -1,16 +1,54 @@
-/* Official Apple artwork: keep proportions and one-quarter-height clear space. */
-a.official-app-store-badge, a.official-app-store-badge:hover, a.official-app-store-badge:active {
-  display: inline-flex !important; align-items: center !important; justify-content: center !important;
-  box-sizing: content-box !important; width: fit-content !important; min-width: 0 !important; height: auto !important;
-  padding: 10px !important; margin: 0 !important; border: 0 !important; border-radius: 0 !important;
-  background: transparent !important; box-shadow: none !important; text-decoration: none !important;
-  transform: none !important; transition: none !important; line-height: 0 !important; flex-shrink: 0;
+/* Official Apple artwork. Keep surrounding layout and spacing site-specific. */
+a.official-app-store-badge {
+  --app-store-badge-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  width: fit-content;
+  min-width: 0;
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  line-height: 1;
+  text-decoration: none;
 }
-a.official-app-store-badge::before, a.official-app-store-badge::after { content: none !important; }
-a.official-app-store-badge img { display: block !important; width: auto !important; height: 40px !important; max-width: none !important; margin: 0 !important; padding: 0 !important; border: 0 !important; border-radius: 0 !important; box-shadow: none !important; filter: none !important; transform: none !important; }
-a.official-app-store-badge:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+a.official-app-store-badge:hover,
+a.official-app-store-badge:active {
+  background: transparent;
+  box-shadow: none;
+  transform: none;
+  opacity: 1;
+}
+a.official-app-store-badge::before,
+a.official-app-store-badge::after { content: none; }
+a.official-app-store-badge img {
+  display: block;
+  width: auto;
+  height: var(--app-store-badge-height);
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  filter: none;
+  transform: none;
+}
+a.official-app-store-badge:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 5px;
+}
 
+/* Constrain grid tracks without changing heading typography on every page. */
 @media (max-width: 720px) {
   .feature-grid, .split-hero, .audience-grid { grid-template-columns: minmax(0, 1fr); }
-  .feature-grid > *, .split-hero > *, .article-hero, .audience-card, h1, h2 { min-width: 0; overflow-wrap: anywhere; hyphens: auto; }
+  html[lang="de"] .article h2, html[lang="de"] .cta h2 { overflow-wrap: anywhere; hyphens: auto; }
+  .feature-grid > *, .split-hero > *, .article-hero, .audience-card { min-width: 0; overflow-wrap: anywhere; }
 }
