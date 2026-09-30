@@ -42,8 +42,9 @@ a.official-app-store-badge img {
   transform: none;
 }
 a.official-app-store-badge:focus-visible {
-  outline: 3px solid currentColor;
-  outline-offset: 5px;
+  outline: 2px solid #fff;
+  outline-offset: 4px;
+  box-shadow: 0 0 0 6px #173c63;
 }
 
 /* Constrain grid tracks without changing heading typography on every page. */
